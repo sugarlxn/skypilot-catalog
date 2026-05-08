@@ -1,0 +1,63 @@
+name: "fetch-alicloud-catalog"
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["sync-upstream"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-alicloud-catalog
+  cancel-in-progress: false
+
+jobs:
+  fetch_alicloud_catalog:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout catalog repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install AliCloud fetcher dependencies
+        run: uv sync --project .github/scripts/alicloud --locked
+
+      - name: Fetch AliCloud catalog
+        env:
+          ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
+          ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
+        run: |
+          mkdir -p catalogs/v8/alicloud
+          cd catalogs/v8/alicloud
+          uv run --project ../../../.github/scripts/alicloud python ../../../.github/scripts/alicloud/fetch_gpu_vms.py --cny-usd-rate 0.138 --max-workers 16 --output vms.csv
+
+      - name: Commit AliCloud catalog
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add catalogs/v8/alicloud/vms.csv
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "[Bot] Update AliCloud catalog v8 (scheduled at $(date))"
+          git fetch origin
+          git rebase origin/master
+          git push

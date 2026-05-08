@@ -1,0 +1,42 @@
+name: "sync-upstream"
+
+on:
+  schedule:
+    - cron: "12 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync_upstream:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout catalog repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync upstream
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git remote add upstream https://github.com/skypilot-org/skypilot-catalog.git
+          git fetch upstream master
+
+          before="$(git rev-parse HEAD)"
+          git merge --no-edit upstream/master
+          after="$(git rev-parse HEAD)"
+
+          if [ "$before" = "$after" ]; then
+            echo "No upstream changes."
+            exit 0
+          fi
+
+          git push
