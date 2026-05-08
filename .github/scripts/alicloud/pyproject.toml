@@ -1,0 +1,12 @@
+[project]
+name = "alicloud"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "alibabacloud-credentials",
+    "alibabacloud-ecs20140526",
+    "alibabacloud-tea-openapi",
+    "alibabacloud-tea-util",
+]
