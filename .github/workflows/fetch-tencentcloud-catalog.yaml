@@ -1,0 +1,64 @@
+name: "fetch-tencentcloud-catalog"
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["fetch-alicloud-catalog"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-tencentcloud-catalog
+  cancel-in-progress: false
+
+jobs:
+  fetch_tencentcloud_catalog:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout catalog repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install TencentCloud fetcher dependencies
+        run: uv sync --project .github/scripts/tencentcloud --locked
+
+      - name: Fetch TencentCloud catalog
+        env:
+          TENCENTCLOUD_SECRET_ID: ${{ secrets.TENCENTCLOUD_SECRET_ID }}
+          TENCENTCLOUD_SECRET_KEY: ${{ secrets.TENCENTCLOUD_SECRET_KEY }}
+          TENCENTCLOUD_IMAGE_ID: ${{ secrets.TENCENTCLOUD_IMAGE_ID }}
+        run: |
+          mkdir -p catalogs/v8/tencentcloud
+          cd catalogs/v8/tencentcloud
+          uv run --project ../../../.github/scripts/tencentcloud python ../../../.github/scripts/tencentcloud/fetch_tencentcloud_catalog.py --cny-usd-rate 0.138 --workers 8 --retries 3 --retry-backoff 0.5 --output vms.csv
+
+      - name: Commit TencentCloud catalog
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add catalogs/v8/tencentcloud/vms.csv
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "[Bot] Update TencentCloud catalog v8 (scheduled at $(date))"
+          git fetch origin
+          git rebase origin/master
+          git push

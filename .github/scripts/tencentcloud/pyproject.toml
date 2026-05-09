@@ -1,0 +1,10 @@
+[project]
+name = "tencentcloud"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "tencentcloud-sdk-python-common>=3.1.92",
+    "tencentcloud-sdk-python-cvm>=3.1.88",
+]
