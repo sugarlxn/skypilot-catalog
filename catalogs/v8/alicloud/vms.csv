@@ -11,11 +11,10 @@ ecs.sgn8ga-wy-32g-m12.4xlarge,RTX 5880,1,16,32,RTX 5880 12GB,0.83214386,0.263994
 ecs.sgn8ga-wy-32g-m8.4xlarge,RTX 5880,1,16,32,RTX 5880 8GB,0.65848466,0.21016034,ap-northeast-1,ap-northeast-1a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-m12.8xlarge,RTX 5880,1,32,64,RTX 5880 12GB,1.06703366,0.33681053,ap-northeast-1,ap-northeast-1a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-m8.8xlarge,RTX 5880,1,32,64,RTX 5880 8GB,1.04891426,0.33119351,ap-northeast-1,ap-northeast-1a,ecs.sgn8ga-wy,X86
-ecs.ebmgn7e.32xlarge,A100 80G,8,128,1024,A100 80G 80GB,41.06042892,5.34545857,ap-northeast-1,ap-northeast-1b,ecs.ebmgn7e,X86
-ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,1.82895926,0.24536786,ap-northeast-1,ap-northeast-1b,ecs.gn6i,X86
-ecs.gn6i-c24g1.12xlarge,T4,2,48,186,T4 16GB,4.56135954,1.19242046,ap-northeast-1,ap-northeast-1b,ecs.gn6i,X86
-ecs.gn6i-c24g1.6xlarge,T4,1,24,93,T4 16GB,2.28435926,0.50937566,ap-northeast-1,ap-northeast-1b,ecs.gn6i,X86
-ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,3.15748513,0.73295084,ap-northeast-1,ap-northeast-1b,ecs.gn6i,X86
+ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,1.82895926,0.26357006,ap-northeast-1,ap-northeast-1b,ecs.gn6i,X86
+ecs.gn6i-c24g1.12xlarge,T4,2,48,186,T4 16GB,4.56135954,1.23794666,ap-northeast-1,ap-northeast-1b,ecs.gn6i,X86
+ecs.gn6i-c24g1.6xlarge,T4,1,24,93,T4 16GB,2.28435926,0.53213186,ap-northeast-1,ap-northeast-1b,ecs.gn6i,X86
+ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,3.15748513,0.85890068,ap-northeast-1,ap-northeast-1b,ecs.gn6i,X86
 ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.16517926,0.15907646,ap-northeast-1,ap-northeast-1b,ecs.gn6i,X86
 ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.38597926,0.18778046,ap-northeast-1,ap-northeast-1b,ecs.gn6i,X86
 ecs.gn7e-c16g1.16xlarge,A100 80G,4,64,500,A100 80G 80GB,20.53458354,2.67709885,ap-northeast-1,ap-northeast-1b,ecs.gn7e,X86
@@ -24,8 +23,9 @@ ecs.gn7e-c16g1.4xlarge,A100 80G,1,16,125,A100 80G 80GB,5.14026954,0.67583816,ap-
 ecs.gn7e-c16g1.8xlarge,A100 80G,2,32,250,A100 80G 80GB,10.27166154,1.34291912,ap-northeast-1,ap-northeast-1b,ecs.gn7e,X86
 ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,2.63487926,0.82284266,ap-northeast-1,ap-northeast-1b,ecs.gn7i,X86
 ecs.gn7i-c32g1.16xlarge,A10,2,64,376,A10 24GB,5.84475954,1.81790546,ap-northeast-1,ap-northeast-1b,ecs.gn7i,X86
+ecs.gn7i-c32g1.32xlarge,A10,4,128,752,A10 24GB,11.68064154,3.62702888,ap-northeast-1,ap-northeast-1b,ecs.gn7i,X86
 ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,2.92674926,0.91332236,ap-northeast-1,ap-northeast-1b,ecs.gn7i,X86
-ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,3.51035126,1.09423898,ap-northeast-1,ap-northeast-1b,ecs.gn7i,X86
+ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,3.51035126,1.05922286,ap-northeast-1,ap-northeast-1b,ecs.gn7i,X86
 ecs.gn7i-c56g1.14xlarge,A10,1,56,346,A10 24GB,4.21070113,1.31134748,ap-northeast-1,ap-northeast-1b,ecs.gn7i,X86
 ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,2.48901313,0.7776242,ap-northeast-1,ap-northeast-1b,ecs.gn7i,X86
 ecs.sgn7i-vws-m2.xlarge,A10*1/12,1,4,15.5,A10*1/12 2GB,0.35840322,0.11713509,ap-northeast-1,ap-northeast-1b,ecs.sgn7i-vws,X86
@@ -41,13 +41,13 @@ ecs.gn7e-c16g1.16xlarge,A100 80G,4,64,500,A100 80G 80GB,20.53458354,2.67709885,a
 ecs.gn7e-c16g1.32xlarge,A100 80G,8,128,1000,A100 80G 80GB,41.06042892,5.34545857,ap-northeast-1,ap-northeast-1c,ecs.gn7e,X86
 ecs.gn7e-c16g1.4xlarge,A100 80G,1,16,125,A100 80G 80GB,5.14026954,0.67583816,ap-northeast-1,ap-northeast-1c,ecs.gn7e,X86
 ecs.gn7e-c16g1.8xlarge,A100 80G,2,32,250,A100 80G 80GB,10.27166154,1.34291912,ap-northeast-1,ap-northeast-1c,ecs.gn7e,X86
-ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,2.63487926,0.58649006,ap-northeast-1,ap-northeast-1c,ecs.gn7i,X86
-ecs.gn7i-c32g1.16xlarge,A10,2,64,376,A10 24GB,5.84475954,1.35102386,ap-northeast-1,ap-northeast-1c,ecs.gn7i,X86
-ecs.gn7i-c32g1.32xlarge,A10,4,128,752,A10 24GB,11.68064154,2.69327686,ap-northeast-1,ap-northeast-1c,ecs.gn7i,X86
-ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,2.92674926,0.65070146,ap-northeast-1,ap-northeast-1c,ecs.gn7i,X86
-ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,3.51035126,0.7790939,ap-northeast-1,ap-northeast-1c,ecs.gn7i,X86
-ecs.gn7i-c56g1.14xlarge,A10,1,56,346,A10 24GB,4.21070113,0.9331709,ap-northeast-1,ap-northeast-1c,ecs.gn7i,X86
-ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,2.48901313,0.55439954,ap-northeast-1,ap-northeast-1c,ecs.gn7i,X86
+ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,2.63487926,0.82284266,ap-northeast-1,ap-northeast-1c,ecs.gn7i,X86
+ecs.gn7i-c32g1.16xlarge,A10,2,64,376,A10 24GB,5.84475954,1.81790546,ap-northeast-1,ap-northeast-1c,ecs.gn7i,X86
+ecs.gn7i-c32g1.32xlarge,A10,4,128,752,A10 24GB,11.68064154,3.62702888,ap-northeast-1,ap-northeast-1c,ecs.gn7i,X86
+ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,2.92674926,0.91332236,ap-northeast-1,ap-northeast-1c,ecs.gn7i,X86
+ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,3.51035126,1.09423898,ap-northeast-1,ap-northeast-1c,ecs.gn7i,X86
+ecs.gn7i-c56g1.14xlarge,A10,1,56,346,A10 24GB,4.21070113,1.31134748,ap-northeast-1,ap-northeast-1c,ecs.gn7i,X86
+ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,2.48901313,0.7776242,ap-northeast-1,ap-northeast-1c,ecs.gn7i,X86
 ecs.gn8is-2x.8xlarge,L20,2,32,256,L20 48GB,6.37914384,0.58207572,ap-northeast-1,ap-northeast-1c,ecs.gn8is,X86
 ecs.gn8is-4x.16xlarge,L20,4,64,512,L20 48GB,12.74954814,1.15541218,ap-northeast-1,ap-northeast-1c,ecs.gn8is,X86
 ecs.gn8is-8x.32xlarge,L20,8,128,1024,L20 48GB,23.17384596,3.02020314,ap-northeast-1,ap-northeast-1c,ecs.gn8is,X86
@@ -62,15 +62,17 @@ ecs.sgn7i-vws-m8s.4xlarge,A10*1/3,1,16,32,A10*1/3 8GB,1.17954865,0.16094449,ap-n
 ecs.ebmgn7e.32xlarge,A100 80G,8,128,1024,A100 80G 80GB,42.00488712,13.02756432,ap-northeast-2,ap-northeast-2a,ecs.ebmgn7e,X86
 ecs.gn7e-c16g1.16xlarge,A100 80G,4,64,500,A100 80G 80GB,21.00683334,6.51816849,ap-northeast-2,ap-northeast-2a,ecs.gn7e,X86
 ecs.gn7e-c16g1.4xlarge,A100 80G,1,16,125,A100 80G 80GB,5.25828783,1.63611917,ap-northeast-2,ap-northeast-2a,ecs.gn7e,X86
+ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.71348197,0.53722931,ap-northeast-2,ap-northeast-2a,ecs.gn7i,X86
+ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,1.90288697,0.59594486,ap-northeast-2,ap-northeast-2a,ecs.gn7i,X86
+ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,2.28171077,0.71338024,ap-northeast-2,ap-northeast-2a,ecs.gn7i,X86
+ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,1.61877257,0.50786939,ap-northeast-2,ap-northeast-2a,ecs.gn7i,X86
+ecs.ebmgn6i.24xlarge,T4,4,96,384,T4 16GB,9.48375744,8.53630464,ap-southeast-1,ap-southeast-1a,ecs.ebmgn6i,X86
 ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,1.92177144,0.60211746,ap-southeast-1,ap-southeast-1a,ecs.gn6i,X86
 ecs.gn6i-c24g1.12xlarge,T4,2,48,186,T4 16GB,4.80555744,1.49609112,ap-southeast-1,ap-southeast-1a,ecs.gn6i,X86
-ecs.gn6i-c24g1.24xlarge,T4,4,96,372,T4 16GB,9.48375744,2.94633312,ap-southeast-1,ap-southeast-1a,ecs.gn6i,X86
 ecs.gn6i-c24g1.6xlarge,T4,1,24,93,T4 16GB,2.40642744,0.75236082,ap-southeast-1,ap-southeast-1a,ecs.gn6i,X86
 ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,3.07269144,0.95890266,ap-southeast-1,ap-southeast-1a,ecs.gn6i,X86
 ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.23687744,0.38980032,ap-southeast-1,ap-southeast-1a,ecs.gn6i,X86
 ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.46512944,0.46055844,ap-southeast-1,ap-southeast-1a,ecs.gn6i,X86
-ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.57540637,0.47114129,ap-southeast-1,ap-southeast-1a,ecs.gn8is,X86
-ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,2.823886,0.5158676,ap-southeast-1,ap-southeast-1a,ecs.gn8is,X86
 ecs.sgn6i-vws-m2.xlarge,T4/8,1,4,10,T4/8 2GB,0.23704362,0.03884528,ap-southeast-1,ap-southeast-1a,ecs.sgn6i-vws,X86
 ecs.sgn6i-vws-m4.2xlarge,T4/4,1,8,16,T4/4 4GB,0.56084539,0.08093951,ap-southeast-1,ap-southeast-1a,ecs.sgn6i-vws,X86
 ecs.sgn6i-vws-m8.4xlarge,T4/2,1,16,32,T4/2 8GB,1.03897657,0.14309656,ap-southeast-1,ap-southeast-1a,ecs.sgn6i-vws,X86
@@ -80,23 +82,23 @@ ecs.sgn7i-vws-m4.2xlarge,A10*1/6,1,8,31,A10*1/6 4GB,0.63430265,0.09048896,ap-sou
 ecs.sgn7i-vws-m4s.2xlarge,A10*1/6,1,8,16,A10*1/6 4GB,0.63430265,0.09048896,ap-southeast-1,ap-southeast-1a,ecs.sgn7i-vws,X86
 ecs.sgn7i-vws-m8.4xlarge,A10*1/3,1,16,62,A10*1/3 8GB,1.17632677,0.16095209,ap-southeast-1,ap-southeast-1a,ecs.sgn7i-vws,X86
 ecs.sgn7i-vws-m8s.4xlarge,A10*1/3,1,16,32,A10*1/3 8GB,1.17632677,0.16095209,ap-southeast-1,ap-southeast-1a,ecs.sgn7i-vws,X86
-ecs.sgn8ga-wy-128g-m24.16xlarge,RTX 5880,1,64,128,RTX 5880 24GB,1.87769424,0.49503029,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-128g-m24.16xlarge,RTX 5880,1,64,128,RTX 5880 24GB,1.87769424,0.55108423,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-128g-x1.16xlarge,RTX 5880,1,64,128,RTX 5880 48GB,2.99894424,0.93604103,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-12g-m2.3large,RTX 5880,1,6,12,RTX 5880 2GB,0.16965444,0.04452294,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-16g-m2.2xlarge,RTX 5880,1,8,16,RTX 5880 2GB,0.23318964,0.05850068,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-16g-m4.2xlarge,RTX 5880,1,8,16,RTX 5880 4GB,0.30794424,0.09286958,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-12g-m2.3large,RTX 5880,1,6,12,RTX 5880 2GB,0.16965444,0.04773144,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-16g-m2.2xlarge,RTX 5880,1,8,16,RTX 5880 2GB,0.23318964,0.06297989,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-16g-m4.2xlarge,RTX 5880,1,8,16,RTX 5880 4GB,0.30794424,0.10183103,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-256g-x1.16xlarge,RTX 5880,1,64,256,RTX 5880 48GB,3.74644884,1.16776745,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-256g-x2-ne.16xlarge,RTX 5880,2,64,256,RTX 5880 48GB,6.17581464,1.92087085,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-256g-x2.16xlarge,RTX 5880,2,64,256,RTX 5880 48GB,5.61518964,1.7470771,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-32g-m12.4xlarge,RTX 5880,1,16,32,RTX 5880 12GB,0.71906004,0.16539217,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-32g-m12.4xlarge,RTX 5880,1,16,32,RTX 5880 12GB,0.71906004,0.22927693,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-32g-m8.4xlarge,RTX 5880,1,16,32,RTX 5880 8GB,0.56956464,0.18293335,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-64g-m12.8xlarge,RTX 5880,1,32,64,RTX 5880 12GB,0.92894424,0.2115667,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-64g-m16.8xlarge,RTX 5880,1,32,64,RTX 5880 16GB,1.05543504,0.2812429,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-64g-m24.8xlarge,RTX 5880,1,32,64,RTX 5880 24GB,1.50394884,0.39785648,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-64g-m12.8xlarge,RTX 5880,1,32,64,RTX 5880 12GB,0.92894424,0.29434103,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-64g-m16.8xlarge,RTX 5880,1,32,64,RTX 5880 16GB,1.05543504,0.31262906,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-64g-m24.8xlarge,RTX 5880,1,32,64,RTX 5880 24GB,1.50394884,0.44269807,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-m8.8xlarge,RTX 5880,1,32,64,RTX 5880 8GB,0.90564984,0.28711976,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-x1-ne.8xlarge,RTX 5880,1,32,64,RTX 5880 48GB,2.47568964,0.7738321,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-x1.8xlarge,RTX 5880,1,32,64,RTX 5880 48GB,2.25143964,0.7043146,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-8g-m2.xlarge,RTX 5880,1,4,8,RTX 5880 2GB,0.15844884,0.04205771,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-8g-m2.xlarge,RTX 5880,1,4,8,RTX 5880 2GB,0.15844884,0.0450421,ap-southeast-1,ap-southeast-1a,ecs.sgn8ga-wy,X86
 ecs.ebmgn6i.24xlarge,T4,4,96,384,T4 16GB,9.48375744,1.24091808,ap-southeast-1,ap-southeast-1b,ecs.ebmgn6i,X86
 ecs.gn6e-c12g1.3xlarge,V100,1,12,92,V100 32GB,3.81637344,1.18944408,ap-southeast-1,ap-southeast-1b,ecs.gn6e,X86
 ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,1.92177144,0.60211746,ap-southeast-1,ap-southeast-1b,ecs.gn6i,X86
@@ -107,12 +109,12 @@ ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,3.07269144,0.68319108,ap-southeast-1
 ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.23687744,0.38980032,ap-southeast-1,ap-southeast-1b,ecs.gn6i,X86
 ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.46512944,0.46055844,ap-southeast-1,ap-southeast-1b,ecs.gn6i,X86
 ecs.gn8is-2x.8xlarge,L20,2,32,256,L20 48GB,5.63853924,1.02250507,ap-southeast-1,ap-southeast-1b,ecs.gn8is,X86
-ecs.gn8is-4x.16xlarge,L20,4,64,512,L20 48GB,11.26784904,2.03578083,ap-southeast-1,ap-southeast-1b,ecs.gn8is,X86
 ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.57540637,0.47114129,ap-southeast-1,ap-southeast-1b,ecs.gn8is,X86
 ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,2.823886,0.5158676,ap-southeast-1,ap-southeast-1b,ecs.gn8is,X86
 ecs.sgn6i-vws-m2.xlarge,T4/8,1,4,10,T4/8 2GB,0.23704362,0.03884528,ap-southeast-1,ap-southeast-1b,ecs.sgn6i-vws,X86
 ecs.sgn6i-vws-m4.2xlarge,T4/4,1,8,16,T4/4 4GB,0.56084539,0.08093951,ap-southeast-1,ap-southeast-1b,ecs.sgn6i-vws,X86
 ecs.sgn6i-vws-m8.4xlarge,T4/2,1,16,32,T4/2 8GB,1.03897657,0.14309656,ap-southeast-1,ap-southeast-1b,ecs.sgn6i-vws,X86
+ecs.ebmgn6i.24xlarge,T4,4,96,384,T4 16GB,9.48375744,8.53630464,ap-southeast-1,ap-southeast-1c,ecs.ebmgn6i,X86
 ecs.gn6e-c12g1.3xlarge,V100,1,12,92,V100 32GB,3.81637344,1.18944408,ap-southeast-1,ap-southeast-1c,ecs.gn6e,X86
 ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,1.92177144,0.60211746,ap-southeast-1,ap-southeast-1c,ecs.gn6i,X86
 ecs.gn6i-c24g1.12xlarge,T4,2,48,186,T4 16GB,4.80555744,1.49609112,ap-southeast-1,ap-southeast-1c,ecs.gn6i,X86
@@ -122,7 +124,6 @@ ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,3.07269144,0.95890266,ap-southeast-1
 ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.23687744,0.38980032,ap-southeast-1,ap-southeast-1c,ecs.gn6i,X86
 ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.46512944,0.46055844,ap-southeast-1,ap-southeast-1c,ecs.gn6i,X86
 ecs.gn6v-c8g1.2xlarge,V100,1,8,32,V100 16GB,4.21822944,1.31401944,ap-southeast-1,ap-southeast-1c,ecs.gn6v,X86
-ecs.gn6v-c8g1.4xlarge,V100,2,16,64,V100 16GB,8.42722944,2.61880944,ap-southeast-1,ap-southeast-1c,ecs.gn6v,X86
 ecs.sgn6i-vws-m2.xlarge,T4/8,1,4,10,T4/8 2GB,0.23704362,0.03884528,ap-southeast-1,ap-southeast-1c,ecs.sgn6i-vws,X86
 ecs.sgn6i-vws-m4.2xlarge,T4/4,1,8,16,T4/4 4GB,0.56084539,0.08093951,ap-southeast-1,ap-southeast-1c,ecs.sgn6i-vws,X86
 ecs.sgn6i-vws-m8.4xlarge,T4/2,1,16,32,T4/2 8GB,1.03897657,0.14309656,ap-southeast-1,ap-southeast-1c,ecs.sgn6i-vws,X86
@@ -131,9 +132,12 @@ ecs.vgn6i-m8-vws.2xlarge,T4/2,1,10,46,T4/2 8GB,0.85027633,0.11856554,ap-southeas
 ecs.ebmgn8is.32xlarge,L20,8,128,1024,L20 48GB,20.17972206,1.82373389,ap-southeast-3,ap-southeast-3a,ecs.ebmgn8is,X86
 ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,1.8823465,0.5892589,ap-southeast-3,ap-southeast-3a,ecs.gn6i,X86
 ecs.gn6i-c24g1.6xlarge,T4,1,24,93,T4 16GB,2.35706663,0.7364221,ap-southeast-3,ap-southeast-3a,ecs.gn6i,X86
-ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,3.2249485,1.00546552,ap-southeast-3,ap-southeast-3a,ecs.gn6i,X86
+ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,3.2249485,0.71596774,ap-southeast-3,ap-southeast-3a,ecs.gn6i,X86
 ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.2116665,0.3813481,ap-southeast-3,ap-southeast-3a,ecs.gn6i,X86
 ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.4352265,0.4506517,ap-southeast-3,ap-southeast-3a,ecs.gn6i,X86
+ecs.gn8is-2x.8xlarge,L20,2,32,256,L20 48GB,5.55613351,1.00691534,ap-southeast-3,ap-southeast-3a,ecs.gn8is,X86
+ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.53469761,0.46305689,ap-southeast-3,ap-southeast-3a,ecs.gn8is,X86
+ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,2.78222186,0.50761124,ap-southeast-3,ap-southeast-3a,ecs.gn8is,X86
 ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,1.8823465,0.2519317,ap-southeast-3,ap-southeast-3b,ecs.gn6i,X86
 ecs.gn6i-c24g1.12xlarge,T4,2,48,186,T4 16GB,4.70858663,1.0423681,ap-southeast-3,ap-southeast-3b,ecs.gn6i,X86
 ecs.gn6i-c24g1.24xlarge,T4,4,96,372,T4 16GB,9.29294691,2.0509273,ap-southeast-3,ap-southeast-3b,ecs.gn6i,X86
@@ -141,7 +145,6 @@ ecs.gn6i-c24g1.6xlarge,T4,1,24,93,T4 16GB,2.35706663,0.3136453,ap-southeast-3,ap
 ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,3.2249485,0.42646996,ap-southeast-3,ap-southeast-3b,ecs.gn6i,X86
 ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.2116665,0.1647433,ap-southeast-3,ap-southeast-3b,ecs.gn6i,X86
 ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.4352265,0.1938061,ap-southeast-3,ap-southeast-3b,ecs.gn6i,X86
-ecs.gn8is-2x.8xlarge,L20,2,32,256,L20 48GB,5.55613351,0.951437,ap-southeast-3,ap-southeast-3b,ecs.gn8is,X86
 ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.53469761,0.33673735,ap-southeast-3,ap-southeast-3b,ecs.gn8is,X86
 ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,2.78222186,0.36891547,ap-southeast-3,ap-southeast-3b,ecs.gn8is,X86
 ecs.sgn6i-vws-m2.xlarge,T4/8,1,4,10,T4/8 2GB,0.25471538,0.04033965,ap-southeast-3,ap-southeast-3b,ecs.sgn6i-vws,X86
@@ -158,8 +161,8 @@ ecs.gn7i-4x.8xlarge,A10,4,32,128,A10 24GB,6.48142944,2.01561144,ap-southeast-5,a
 ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.72180944,0.54012924,ap-southeast-5,ap-southeast-5a,ecs.gn7i,X86
 ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,1.62796944,0.51103884,ap-southeast-5,ap-southeast-5a,ecs.gn7i,X86
 ecs.gn8is-2x.8xlarge,L20,2,32,256,L20 48GB,6.34258405,0.57923135,ap-southeast-5,ap-southeast-5a,ecs.gn8is,X86
-ecs.gn8is-4x.16xlarge,L20,4,64,512,L20 48GB,12.67593894,1.14923336,ap-southeast-5,ap-southeast-5a,ecs.gn8is,X86
-ecs.gn8is-8x.32xlarge,L20,8,128,1024,L20 48GB,23.03960922,2.08196377,ap-southeast-5,ap-southeast-5a,ecs.gn8is,X86
+ecs.gn8is-4x.16xlarge,L20,4,64,512,L20 48GB,12.67593894,1.40256742,ap-southeast-5,ap-southeast-5a,ecs.gn8is,X86
+ecs.gn8is-8x.32xlarge,L20,8,128,1024,L20 48GB,23.03960922,3.00317905,ap-southeast-5,ap-southeast-5a,ecs.gn8is,X86
 ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.89369164,0.26883105,ap-southeast-5,ap-southeast-5a,ecs.gn8is,X86
 ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,3.17590882,0.2942306,ap-southeast-5,ap-southeast-5a,ecs.gn8is,X86
 ecs.ebmgn8is.32xlarge,L20,8,128,1024,L20 48GB,23.03675538,2.08170682,ap-southeast-5,ap-southeast-5b,ecs.ebmgn8is,X86
@@ -176,38 +179,34 @@ ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,3.17590882,0.2942306,ap-southeast-5,ap-s
 ecs.sgn6i-vws-m2.xlarge,T4/8,1,4,10,T4/8 2GB,0.23600267,0.03870996,ap-southeast-5,ap-southeast-5b,ecs.sgn6i-vws,X86
 ecs.sgn6i-vws-m4.2xlarge,T4/4,1,8,16,T4/4 4GB,0.54244695,0.07854771,ap-southeast-5,ap-southeast-5b,ecs.sgn6i-vws,X86
 ecs.sgn6i-vws-m8.4xlarge,T4/2,1,16,32,T4/2 8GB,1.02057817,0.14070477,ap-southeast-5,ap-southeast-5b,ecs.sgn6i-vws,X86
-ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,2.5168164,0.78658141,ap-southeast-7,ap-southeast-7a,ecs.gn7i,X86
-ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,2.7954373,0.87295387,ap-southeast-7,ap-southeast-7a,ecs.gn7i,X86
-ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,3.35267895,1.0456988,ap-southeast-7,ap-southeast-7a,ecs.gn7i,X86
-ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,2.37750623,0.74339524,ap-southeast-7,ap-southeast-7a,ecs.gn7i,X86
 ecs.gn8is-2x.8xlarge,L20,2,32,256,L20 48GB,5.34846324,0.48976048,ap-southeast-7,ap-southeast-7a,ecs.gn8is,X86
 ecs.gn8is-4x.16xlarge,L20,4,64,512,L20 48GB,10.68771084,0.97029277,ap-southeast-7,ap-southeast-7a,ecs.gn8is,X86
 ecs.gn8is-8x.32xlarge,L20,8,128,1024,L20 48GB,19.42464402,1.75661663,ap-southeast-7,ap-southeast-7a,ecs.gn8is,X86
 ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.43615264,0.22765253,ap-southeast-7,ap-southeast-7a,ecs.gn8is,X86
 ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,2.67885324,0.24949558,ap-southeast-7,ap-southeast-7a,ecs.gn8is,X86
-ecs.ebmgi6s.24xlarge,intel SG1,1,96,384,intel SG1,2.0945295,0.5948145,cn-beijing,cn-beijing-e,ecs.ebmgi6s,X86
+ecs.ebmgi6s.24xlarge,intel SG1,1,96,384,intel SG1,2.0945295,0.55315575,cn-beijing,cn-beijing-e,ecs.ebmgi6s,X86
 ecs.gn5i-c40g1.10xlarge,P4,1,40,160,P4 8GB,3.796932,1.714995,cn-beijing,cn-beijing-e,ecs.gn5i,X86
 ecs.gn5i-c48g1.12xlarge,P4,1,48,192,P4 8GB,4.343412,1.960911,cn-beijing,cn-beijing-e,ecs.gn5i,X86
 ecs.ebmgn8t.32xlarge,G49,8,128,1024,G49 24GB,15.2490966,4.73521815,cn-beijing,cn-beijing-f,ecs.ebmgn8t,X86
 ecs.ebmgp7ix.48xlarge,A910X,8,192,1024,A910X 48GB,22.2928374,6.91877821,cn-beijing,cn-beijing-f,ecs.ebmgp7ix,X86
 ecs.gn6v-c10g1.20xlarge,V100,8,82,336,V100 16GB,30.321912,9.4077912,cn-beijing,cn-beijing-f,ecs.gn6v,X86
 ecs.gn6v-c8g1.16xlarge,V100,8,64,256,V100 16GB,29.223432,9.0672624,cn-beijing,cn-beijing-f,ecs.gn6v,X86
-ecs.gn6v-c8g1.2xlarge,V100,1,8,32,V100 16GB,3.663072,0.8879472,cn-beijing,cn-beijing-f,ecs.gn6v,X86
+ecs.gn6v-c8g1.2xlarge,V100,1,8,32,V100 16GB,3.663072,1.1435508,cn-beijing,cn-beijing-f,ecs.gn6v,X86
 ecs.gn6v-c8g1.4xlarge,V100,2,16,64,V100 16GB,7.314552,2.2755096,cn-beijing,cn-beijing-f,ecs.gn6v,X86
 ecs.gn6v-c8g1.8xlarge,V100,4,32,128,V100 16GB,14.617512,4.5394272,cn-beijing,cn-beijing-f,ecs.gn6v,X86
-ecs.gn7i-2x.8xlarge,A10,2,32,128,A10 24GB,2.7973566,0.87517903,cn-beijing,cn-beijing-f,ecs.gn7i,X86
 ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.4044812,0.44338765,cn-beijing,cn-beijing-f,ecs.gn7i,X86
 ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,1.8481374,0.58092107,cn-beijing,cn-beijing-f,ecs.gn7i,X86
 ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,2.487864,0.77923632,cn-beijing,cn-beijing-f,ecs.gn7i,X86
 ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,1.3270908,0.41939663,cn-beijing,cn-beijing-f,ecs.gn7i,X86
+ecs.gn8is-2x.8xlarge,L20,2,32,256,L20 48GB,4.38801774,0.79934862,cn-beijing,cn-beijing-f,ecs.gn8is,X86
+ecs.gn8is-4x.16xlarge,L20,4,64,512,L20 48GB,8.76444348,1.58710529,cn-beijing,cn-beijing-f,ecs.gn8is,X86
 ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.00087642,0.36966319,cn-beijing,cn-beijing-f,ecs.gn8is,X86
 ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,2.19980487,0.40547032,cn-beijing,cn-beijing-f,ecs.gn8is,X86
 ecs.gn8t-2x.8xlarge,G49,2,32,256,G49 24GB,4.012212,1.2517842,cn-beijing,cn-beijing-f,ecs.gn8t,X86
 ecs.gn8t-4x.16xlarge,G49,4,64,512,G49 24GB,8.012832,2.4919764,cn-beijing,cn-beijing-f,ecs.gn8t,X86
 ecs.gn8t-8x.32xlarge,G49,8,128,1024,G49 24GB,15.250932,4.7357874,cn-beijing,cn-beijing-f,ecs.gn8t,X86
-ecs.gn8t.4xlarge,G49,1,16,128,G49 24GB,2.011212,0.5714856,cn-beijing,cn-beijing-f,ecs.gn8t,X86
-ecs.gn8v.4xlarge,H,1,16,96,H 96GB,5.0327496,0.91540037,cn-beijing,cn-beijing-f,ecs.gn8v,X86
-ecs.gn8v.6xlarge,H,1,24,128,H 96GB,5.3230878,0.96766124,cn-beijing,cn-beijing-f,ecs.gn8v,X86
+ecs.gn8t.4xlarge,G49,1,16,128,G49 24GB,2.011212,0.6314742,cn-beijing,cn-beijing-f,ecs.gn8t,X86
+ecs.gn8te.4xlarge,G49E,1,16,128,G49E 48GB,2.4912864,0.45793699,cn-beijing,cn-beijing-f,ecs.gn8te,X86
 ecs.gn5i-c40g1.10xlarge,P4,1,40,160,P4 8GB,3.796932,1.714995,cn-beijing,cn-beijing-g,ecs.gn5i,X86
 ecs.gn5i-c48g1.12xlarge,P4,1,48,192,P4 8GB,4.343412,1.960911,cn-beijing,cn-beijing-g,ecs.gn5i,X86
 ecs.gn6e-c12g1.3xlarge,V100,1,12,92,V100 32GB,2.735574,0.85602642,cn-beijing,cn-beijing-g,ecs.gn6e,X86
@@ -215,7 +214,6 @@ ecs.gn6v-c8g1.2xlarge,V100,1,8,32,V100 16GB,3.663072,1.1435508,cn-beijing,cn-bei
 ecs.gn6v-c8g1.4xlarge,V100,2,16,64,V100 16GB,7.314552,2.2755096,cn-beijing,cn-beijing-g,ecs.gn6v,X86
 ecs.gn6v-c8g1.8xlarge,V100,4,32,128,V100 16GB,14.617512,4.5394272,cn-beijing,cn-beijing-g,ecs.gn6v,X86
 ecs.ebmgn6i.24xlarge,T4,4,96,384,T4 16GB,9.499092,1.244967,cn-beijing,cn-beijing-h,ecs.ebmgn6i,X86
-ecs.ebmgn6v.24xlarge,Nvidia Tesla V100,8,96,384,Nvidia Tesla V100 16GB,32.734842,4.2656145,cn-beijing,cn-beijing-h,ecs.ebmgn6v,X86
 ecs.f3-c12f1.3xlarge,Xilinx VU9p,1,12,48,Xilinx VU9p 64GB,1.1797994,0.16345896,cn-beijing,cn-beijing-h,ecs.f3,X86
 ecs.f3-c16f1.4xlarge,Xilinx VU9p,1,16,64,Xilinx VU9p 64GB,1.460592,0.199962,cn-beijing,cn-beijing-h,ecs.f3,X86
 ecs.f3-c16f1.8xlarge,Xilinx VU9p,2,32,128,Xilinx VU9p 64GB,2.909592,0.388332,cn-beijing,cn-beijing-h,ecs.f3,X86
@@ -239,14 +237,15 @@ ecs.ebmgn7ix.32xlarge,A10,8,128,512,A10 24GB,11.1546642,3.46594452,cn-beijing,cn
 ecs.ebmgn7t.32xlarge,G39,8,128,768,G39 24GB,12.89159237,1.68599209,cn-beijing,cn-beijing-i,ecs.ebmgn7t,X86
 ecs.ebmgn8t.32xlarge,G49,8,128,1024,G49 24GB,15.2490966,4.73521815,cn-beijing,cn-beijing-i,ecs.ebmgn8t,X86
 ecs.gn6e-c12g1.3xlarge,V100,1,12,92,V100 32GB,2.735574,0.85602642,cn-beijing,cn-beijing-i,ecs.gn6e,X86
+ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,2.276172,0.7136118,cn-beijing,cn-beijing-i,ecs.gn6i,X86
+ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.616532,0.5091234,cn-beijing,cn-beijing-i,ecs.gn6i,X86
+ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.943592,0.610512,cn-beijing,cn-beijing-i,ecs.gn6i,X86
 ecs.gn6v-c8g1.2xlarge,V100,1,8,32,V100 16GB,3.663072,1.1435508,cn-beijing,cn-beijing-i,ecs.gn6v,X86
 ecs.gn6v-c8g1.4xlarge,V100,2,16,64,V100 16GB,7.314552,2.2755096,cn-beijing,cn-beijing-i,ecs.gn6v,X86
 ecs.gn6v-c8g1.8xlarge,V100,4,32,128,V100 16GB,14.617512,4.5394272,cn-beijing,cn-beijing-i,ecs.gn6v,X86
 ecs.gn7e-c16g1.4xlarge,A100 80G,1,16,125,A100 80G 80GB,4.805988,1.49785476,cn-beijing,cn-beijing-i,ecs.gn7e,X86
 ecs.gn7e-c16g1.8xlarge,A100 80G,2,32,250,A100 80G 80GB,9.600246,2.98407474,cn-beijing,cn-beijing-i,ecs.gn7e,X86
-ecs.gn7i-2x.8xlarge,A10,2,32,128,A10 24GB,2.7973566,0.87517903,cn-beijing,cn-beijing-i,ecs.gn7i,X86
 ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.4044812,0.44338765,cn-beijing,cn-beijing-i,ecs.gn7i,X86
-ecs.gn7i-c32g1.16xlarge,A10,2,64,376,A10 24GB,3.6846828,1.15025015,cn-beijing,cn-beijing-i,ecs.gn7i,X86
 ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,1.8481374,0.58092107,cn-beijing,cn-beijing-i,ecs.gn7i,X86
 ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,2.487864,0.77923632,cn-beijing,cn-beijing-i,ecs.gn7i,X86
 ecs.gn7i-c56g1.14xlarge,A10,1,56,346,A10 24GB,2.983146,0.93277374,cn-beijing,cn-beijing-i,ecs.gn7i,X86
@@ -257,7 +256,6 @@ ecs.gn8t-2x.8xlarge,G49,2,32,256,G49 24GB,4.012212,1.2517842,cn-beijing,cn-beiji
 ecs.gn8t-4x.16xlarge,G49,4,64,512,G49 24GB,8.012832,2.4919764,cn-beijing,cn-beijing-i,ecs.gn8t,X86
 ecs.gn8t.4xlarge,G49,1,16,128,G49 24GB,2.011212,0.6314742,cn-beijing,cn-beijing-i,ecs.gn8t,X86
 ecs.gn8te.4xlarge,G49E,1,16,128,G49E 48GB,2.4912864,0.35874922,cn-beijing,cn-beijing-i,ecs.gn8te,X86
-ecs.gn8te.8xlarge,G49E,2,32,256,G49E 48GB,4.970967,0.9042795,cn-beijing,cn-beijing-i,ecs.gn8te,X86
 ecs.gn9g-2x.16xlarge,L20N 48G,2,64,512,L20N 48G 48GB,13.7813976,4.28023174,cn-beijing,cn-beijing-i,ecs.gn9g,X86
 ecs.gn9g.4xlarge,L20N 48G,1,16,128,L20N 48G 48GB,6.695967,2.08374825,cn-beijing,cn-beijing-i,ecs.gn9g,X86
 ecs.gn9g.8xlarge,L20N 48G,1,32,256,L20N 48G 48GB,6.8964948,2.14591187,cn-beijing,cn-beijing-i,ecs.gn9g,X86
@@ -274,18 +272,21 @@ ecs.vgn7i-vws-m12.3xlarge,A10*1/2,1,14,93,A10*1/2 12GB,1.12400103,0.15620517,cn-
 ecs.vgn7i-vws-m24.7xlarge,A10*1,1,30,186,A10*1 24GB,2.15576659,0.48331039,cn-beijing,cn-beijing-i,ecs.vgn7i-vws,X86
 ecs.vgn7i-vws-m4.xlarge,A10*1/6,1,4,30,A10*1/6 4GB,0.43615724,0.06678548,cn-beijing,cn-beijing-i,ecs.vgn7i-vws,X86
 ecs.vgn7i-vws-m8.2xlarge,A10*1/3,1,10,62,A10*1/3 8GB,0.78007909,0.11149533,cn-beijing,cn-beijing-i,ecs.vgn7i-vws,X86
-ecs.gn6e-c12g1.3xlarge,V100,1,12,92,V100 32GB,2.735574,0.85602642,cn-beijing,cn-beijing-j,ecs.gn6e,X86
 ecs.gn5i-c12g1.6xlarge,P4,2,24,96,P4 8GB,0.011592,0.011592,cn-beijing,cn-beijing-k,ecs.gn5i,X86
-ecs.gn5i-c40g1.10xlarge,P4,1,40,160,P4 8GB,3.796932,0.390126,cn-beijing,cn-beijing-k,ecs.gn5i,X86
+ecs.gn5i-c40g1.10xlarge,P4,1,40,160,P4 8GB,3.796932,0.5036862,cn-beijing,cn-beijing-k,ecs.gn5i,X86
 ecs.gn5i-c48g1.12xlarge,P4,1,48,192,P4 8GB,4.343412,0.7913196,cn-beijing,cn-beijing-k,ecs.gn5i,X86
 ecs.gn6e-c12g1.3xlarge,V100,1,12,92,V100 32GB,2.735574,0.85602642,cn-beijing,cn-beijing-k,ecs.gn6e,X86
+ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,2.276172,0.7136118,cn-beijing,cn-beijing-k,ecs.gn6i,X86
+ecs.gn6i-c24g1.6xlarge,T4,1,24,93,T4 16GB,2.383812,0.7469802,cn-beijing,cn-beijing-k,ecs.gn6i,X86
+ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,2.056614,0.64554882,cn-beijing,cn-beijing-k,ecs.gn6i,X86
+ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.616532,0.5091234,cn-beijing,cn-beijing-k,ecs.gn6i,X86
+ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.943592,0.610512,cn-beijing,cn-beijing-k,ecs.gn6i,X86
 ecs.gn6v-c8g1.2xlarge,V100,1,8,32,V100 16GB,3.663072,1.1435508,cn-beijing,cn-beijing-k,ecs.gn6v,X86
 ecs.gn6v-c8g1.4xlarge,V100,2,16,64,V100 16GB,7.314552,2.2755096,cn-beijing,cn-beijing-k,ecs.gn6v,X86
 ecs.gn6v-c8g1.8xlarge,V100,4,32,128,V100 16GB,14.617512,4.5394272,cn-beijing,cn-beijing-k,ecs.gn6v,X86
 ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.4044812,0.44338765,cn-beijing,cn-beijing-k,ecs.gn7i,X86
 ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,1.8481374,0.58092107,cn-beijing,cn-beijing-k,ecs.gn7i,X86
 ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,2.487864,0.77923632,cn-beijing,cn-beijing-k,ecs.gn7i,X86
-ecs.gn7i-c56g1.14xlarge,A10,1,56,346,A10 24GB,2.983146,0.93277374,cn-beijing,cn-beijing-k,ecs.gn7i,X86
 ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,1.3270908,0.41939663,cn-beijing,cn-beijing-k,ecs.gn7i,X86
 ecs.sgn7i-vws-m2.xlarge,A10*1/12,1,4,15.5,A10*1/12 2GB,0.26980198,0.0451593,cn-beijing,cn-beijing-k,ecs.sgn7i-vws,X86
 ecs.sgn7i-vws-m2s.xlarge,A10*1/12,1,4,8,A10*1/12 2GB,0.26427,0.04444014,cn-beijing,cn-beijing-k,ecs.sgn7i-vws,X86
@@ -303,7 +304,7 @@ ecs.ebmgn8t.32xlarge,G49,8,128,1024,G49 24GB,15.2490966,4.73521815,cn-beijing,cn
 ecs.ebmgn8ts.32xlarge,G49,8,128,1024,G49 24GB,15.2490966,3.36384287,cn-beijing,cn-beijing-l,ecs.ebmgn8ts,X86
 ecs.ebmgp7i.48xlarge,A910X,4,192,1024,A910X 48GB,14.7028374,3.24366599,cn-beijing,cn-beijing-l,ecs.ebmgp7i,X86
 ecs.gn6v-c8g1.2xlarge,V100,1,8,32,V100 16GB,3.663072,0.8149176,cn-beijing,cn-beijing-l,ecs.gn6v,X86
-ecs.gn6v-c8g1.4xlarge,V100,2,16,64,V100 16GB,7.314552,2.20248,cn-beijing,cn-beijing-l,ecs.gn6v,X86
+ecs.gn6v-c8g1.4xlarge,V100,2,16,64,V100 16GB,7.314552,1.6182432,cn-beijing,cn-beijing-l,ecs.gn6v,X86
 ecs.gn6v-c8g1.8xlarge,V100,4,32,128,V100 16GB,14.617512,4.5394272,cn-beijing,cn-beijing-l,ecs.gn6v,X86
 ecs.gn7i-2x.8xlarge,A10,2,32,128,A10 24GB,2.7973566,0.87517903,cn-beijing,cn-beijing-l,ecs.gn7i,X86
 ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.4044812,0.44338765,cn-beijing,cn-beijing-l,ecs.gn7i,X86
@@ -314,6 +315,7 @@ ecs.gn8t-2x.8xlarge,G49,2,32,256,G49 24GB,4.012212,1.2517842,cn-beijing,cn-beiji
 ecs.gn8t-4x.16xlarge,G49,4,64,512,G49 24GB,8.012832,2.4919764,cn-beijing,cn-beijing-l,ecs.gn8t,X86
 ecs.gn8t.4xlarge,G49,1,16,128,G49 24GB,2.011212,0.6314742,cn-beijing,cn-beijing-l,ecs.gn8t,X86
 ecs.gn8te.4xlarge,G49E,1,16,128,G49E 48GB,2.4912864,0.45793699,cn-beijing,cn-beijing-l,ecs.gn8te,X86
+ecs.gn8te.8xlarge,G49E,2,32,256,G49E 48GB,4.970967,0.9042795,cn-beijing,cn-beijing-l,ecs.gn8te,X86
 ecs.gn8v-2x.12xlarge,H,2,48,256,H 96GB,10.6345698,1.923728,cn-beijing,cn-beijing-l,ecs.gn8v,X86
 ecs.gn8v-2x.8xlarge,H,2,32,192,H 96GB,9.8896734,1.78964665,cn-beijing,cn-beijing-l,ecs.gn8v,X86
 ecs.gn8v-tdx.4xlarge,H,1,16,96,H 96GB,5.0327496,1.56815086,cn-beijing,cn-beijing-l,ecs.gn8v-tdx,X86
@@ -323,7 +325,6 @@ ecs.gn8v-tee.6xlarge,H,1,24,128,H 96GB,6.6540564,2.07075596,cn-beijing,cn-beijin
 ecs.gn8v.4xlarge,H,1,16,96,H 96GB,5.0327496,0.91540037,cn-beijing,cn-beijing-l,ecs.gn8v,X86
 ecs.gn8v.6xlarge,H,1,24,128,H 96GB,5.3230878,0.96766124,cn-beijing,cn-beijing-l,ecs.gn8v,X86
 ecs.gn9t-2x.12xlarge,G59,2,48,384,G59 32GB,5.5640772,1.73286241,cn-beijing,cn-beijing-l,ecs.gn9t,X86
-ecs.gn9t-4x.24xlarge,G59,4,96,768,G59 32GB,11.1162864,3.45404713,cn-beijing,cn-beijing-l,ecs.gn9t,X86
 ecs.gn9t.6xlarge,G59,1,24,192,G59 32GB,2.7877656,0.87220582,cn-beijing,cn-beijing-l,ecs.gn9t,X86
 ecs.sgn8ga-wy-128g-m24.16xlarge,RTX 5880,1,64,128,RTX 5880 24GB,1.448172,0.4569318,cn-beijing,cn-beijing-l,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-128g-x1.16xlarge,RTX 5880,1,64,128,RTX 5880 48GB,2.310672,0.7243068,cn-beijing,cn-beijing-l,ecs.sgn8ga-wy,X86
@@ -353,17 +354,17 @@ ecs.sgn8ia-m4.2xlarge,v8-4G,1,8,32,v8-4G 4GB,0.31443853,0.05096205,cn-beijing,cn
 ecs.sgn8ia-m48.24xlarge,v8-48G,1,96,384,v8-48G 48GB,3.37862226,0.44930596,cn-beijing,cn-beijing-l,ecs.sgn8ia,X86
 ecs.sgn8ia-m8.4xlarge,v8-8G,1,16,64,v8-8G 8GB,0.61728504,0.0903321,cn-beijing,cn-beijing-l,ecs.sgn8ia,X86
 ecs.gn7i-2x.8xlarge,A10,2,32,128,A10 24GB,2.7973566,0.87517903,cn-chengdu,cn-chengdu-a,ecs.gn7i,X86
-ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.4044812,0.33195652,cn-chengdu,cn-chengdu-a,ecs.gn7i,X86
+ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.4044812,0.31802762,cn-chengdu,cn-chengdu-a,ecs.gn7i,X86
 ecs.gn7i-c32g1.16xlarge,A10,2,64,376,A10 24GB,3.6846828,1.15025015,cn-chengdu,cn-chengdu-a,ecs.gn7i,X86
 ecs.gn7i-c32g1.32xlarge,A10,4,128,752,A10 24GB,7.3577598,2.28890416,cn-chengdu,cn-chengdu-a,ecs.gn7i,X86
-ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,1.8481374,0.43399744,cn-chengdu,cn-chengdu-a,ecs.gn7i,X86
-ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,2.487864,0.65542272,cn-chengdu,cn-chengdu-a,ecs.gn7i,X86
+ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,1.8481374,0.58092107,cn-chengdu,cn-chengdu-a,ecs.gn7i,X86
+ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,2.487864,0.55637184,cn-chengdu,cn-chengdu-a,ecs.gn7i,X86
 ecs.gn7i-c56g1.14xlarge,A10,1,56,346,A10 24GB,2.983146,0.93277374,cn-chengdu,cn-chengdu-a,ecs.gn7i,X86
-ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,1.3270908,0.31415672,cn-chengdu,cn-chengdu-a,ecs.gn7i,X86
+ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,1.3270908,0.30100174,cn-chengdu,cn-chengdu-a,ecs.gn7i,X86
 ecs.sgn7i-vws-m2.xlarge,A10*1/12,1,4,15.5,A10*1/12 2GB,0.26935055,0.04510061,cn-chengdu,cn-chengdu-a,ecs.sgn7i-vws,X86
 ecs.sgn7i-vws-m2s.xlarge,A10*1/12,1,4,8,A10*1/12 2GB,0.269376,0.04510392,cn-chengdu,cn-chengdu-a,ecs.sgn7i-vws,X86
-ecs.sgn7i-vws-m4.2xlarge,A10*1/6,1,8,31,A10*1/6 4GB,0.44203023,0.10628841,cn-chengdu,cn-chengdu-a,ecs.sgn7i-vws,X86
-ecs.sgn7i-vws-m4s.2xlarge,A10*1/6,1,8,16,A10*1/6 4GB,0.442014,0.10628484,cn-chengdu,cn-chengdu-a,ecs.sgn7i-vws,X86
+ecs.sgn7i-vws-m4.2xlarge,A10*1/6,1,8,31,A10*1/6 4GB,0.44203023,0.12350594,cn-chengdu,cn-chengdu-a,ecs.sgn7i-vws,X86
+ecs.sgn7i-vws-m4s.2xlarge,A10*1/6,1,8,16,A10*1/6 4GB,0.442014,0.12350172,cn-chengdu,cn-chengdu-a,ecs.sgn7i-vws,X86
 ecs.sgn7i-vws-m8.4xlarge,A10*1/3,1,16,62,A10*1/3 8GB,0.78738964,0.25208926,cn-chengdu,cn-chengdu-a,ecs.sgn7i-vws,X86
 ecs.sgn7i-vws-m8s.4xlarge,A10*1/3,1,16,32,A10*1/3 8GB,0.787428,0.25210116,cn-chengdu,cn-chengdu-a,ecs.sgn7i-vws,X86
 ecs.vgn7i-vws-m12.3xlarge,A10*1/2,1,14,93,A10*1/2 12GB,1.12808238,0.15673575,cn-chengdu,cn-chengdu-a,ecs.vgn7i-vws,X86
@@ -376,8 +377,8 @@ ecs.gn6i-c24g1.6xlarge,T4,1,24,93,T4 16GB,2.146452,0.6733986,cn-chengdu,cn-cheng
 ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,1.852098,0.58214886,cn-chengdu,cn-chengdu-b,ecs.gn6i,X86
 ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.455072,0.4590708,cn-chengdu,cn-chengdu-b,ecs.gn6i,X86
 ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.750392,0.55062,cn-chengdu,cn-chengdu-b,ecs.gn6i,X86
-ecs.sgn6i-vws-m2.xlarge,T4/8,1,4,10,T4/8 2GB,0.21887529,0.03853883,cn-chengdu,cn-chengdu-b,ecs.sgn6i-vws,X86
-ecs.sgn6i-vws-m4.2xlarge,T4/4,1,8,16,T4/4 4GB,0.37448981,0.05876872,cn-chengdu,cn-chengdu-b,ecs.sgn6i-vws,X86
+ecs.sgn6i-vws-m2.xlarge,T4/8,1,4,10,T4/8 2GB,0.21887529,0.05719432,cn-chengdu,cn-chengdu-b,ecs.sgn6i-vws,X86
+ecs.sgn6i-vws-m4.2xlarge,T4/4,1,8,16,T4/4 4GB,0.37448981,0.09142952,cn-chengdu,cn-chengdu-b,ecs.sgn6i-vws,X86
 ecs.sgn6i-vws-m8.4xlarge,T4/2,1,16,32,T4/2 8GB,0.68013829,0.09850301,cn-chengdu,cn-chengdu-b,ecs.sgn6i-vws,X86
 ecs.sgn8ga-wy-128g-m24.16xlarge,RTX 5880,1,64,128,RTX 5880 24GB,1.448172,0.4569318,cn-chengdu,cn-chengdu-b,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-128g-x1.16xlarge,RTX 5880,1,64,128,RTX 5880 48GB,2.310672,0.7243068,cn-chengdu,cn-chengdu-b,ecs.sgn8ga-wy,X86
@@ -407,6 +408,7 @@ ecs.gn6i-c24g1.6xlarge,T4,1,24,93,T4 16GB,2.383812,0.7469802,cn-guangzhou,cn-gua
 ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,2.056614,0.64554882,cn-guangzhou,cn-guangzhou-a,ecs.gn6i,X86
 ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.616532,0.5091234,cn-guangzhou,cn-guangzhou-a,ecs.gn6i,X86
 ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.943592,0.610512,cn-guangzhou,cn-guangzhou-a,ecs.gn6i,X86
+ecs.gn7i-2x.8xlarge,A10,2,32,128,A10 24GB,2.7973566,0.87517903,cn-guangzhou,cn-guangzhou-a,ecs.gn7i,X86
 ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.4044812,0.31802762,cn-guangzhou,cn-guangzhou-a,ecs.gn7i,X86
 ecs.gn7i-c32g1.16xlarge,A10,2,64,376,A10 24GB,3.6846828,0.81967198,cn-guangzhou,cn-guangzhou-a,ecs.gn7i,X86
 ecs.gn7i-c32g1.32xlarge,A10,4,128,752,A10 24GB,7.3577598,2.28890416,cn-guangzhou,cn-guangzhou-a,ecs.gn7i,X86
@@ -420,7 +422,7 @@ ecs.vgn6i-m8-vws.2xlarge,T4/2,1,10,46,T4/2 8GB,0.82710184,0.11760828,cn-guangzho
 ecs.av8m.16xlarge,VG1000,1,64,256,VG1000 64GB,0.840972,0.3184626,cn-guangzhou,cn-guangzhou-b,ecs.av8m,ARM
 ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.4044812,0.1926676,cn-guangzhou,cn-guangzhou-b,ecs.gn7i,X86
 ecs.gn7i-c32g1.16xlarge,A10,2,64,376,A10 24GB,3.6846828,0.4890938,cn-guangzhou,cn-guangzhou-b,ecs.gn7i,X86
-ecs.gn7i-c32g1.32xlarge,A10,4,128,752,A10 24GB,7.3577598,0.96659381,cn-guangzhou,cn-guangzhou-b,ecs.gn7i,X86
+ecs.gn7i-c32g1.32xlarge,A10,4,128,752,A10 24GB,7.3577598,1.11351717,cn-guangzhou,cn-guangzhou-b,ecs.gn7i,X86
 ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,1.8481374,0.2503429,cn-guangzhou,cn-guangzhou-b,ecs.gn7i,X86
 ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,2.487864,0.33350736,cn-guangzhou,cn-guangzhou-b,ecs.gn7i,X86
 ecs.gn7i-c56g1.14xlarge,A10,1,56,346,A10 24GB,2.983146,0.39789402,cn-guangzhou,cn-guangzhou-b,ecs.gn7i,X86
@@ -446,11 +448,10 @@ ecs.sgn8ga-wy-64g-m8.8xlarge,RTX 5880,1,32,64,RTX 5880 8GB,0.585672,0.1895568,cn
 ecs.sgn8ga-wy-64g-x1-ne.8xlarge,RTX 5880,1,32,64,RTX 5880 48GB,1.9088022,0.59972716,cn-guangzhou,cn-guangzhou-b,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-x1.8xlarge,RTX 5880,1,32,64,RTX 5880 48GB,1.7363022,0.54625216,cn-guangzhou,cn-guangzhou-b,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-8g-m2.xlarge,RTX 5880,1,4,8,RTX 5880 2GB,0.126132,0.0470994,cn-guangzhou,cn-guangzhou-b,ecs.sgn8ga-wy,X86
-ecs.ebmgn8te.32xlarge,G49E,8,128,1024,G49E 48GB,19.849092,2.987217,cn-hangzhou,cn-hangzhou-b,ecs.ebmgn8te,X86
-ecs.gn5i-c40g1.10xlarge,P4,1,40,160,P4 8GB,3.796932,1.714995,cn-hangzhou,cn-hangzhou-b,ecs.gn5i,X86
-ecs.gn5i-c48g1.12xlarge,P4,1,48,192,P4 8GB,4.343412,1.960911,cn-hangzhou,cn-hangzhou-b,ecs.gn5i,X86
+ecs.ebmgn8ia.64xlarge,L20,4,256,1536,L20 48GB,13.226472,4.1082048,cn-hangzhou,cn-hangzhou-b,ecs.ebmgn8ia,X86
+ecs.ebmgn8te.32xlarge,G49E,8,128,1024,G49E 48GB,19.849092,2.590467,cn-hangzhou,cn-hangzhou-b,ecs.ebmgn8te,X86
 ecs.gn8te.16xlarge,G49E,4,64,512,G49E 48GB,9.930342,1.3010295,cn-hangzhou,cn-hangzhou-b,ecs.gn8te,X86
-ecs.gn8te.4xlarge,G49E,1,16,128,G49E 48GB,2.4912864,0.33395227,cn-hangzhou,cn-hangzhou-b,ecs.gn8te,X86
+ecs.gn8te.4xlarge,G49E,1,16,128,G49E 48GB,2.4912864,0.30915533,cn-hangzhou,cn-hangzhou-b,ecs.gn8te,X86
 ecs.gn8te.8xlarge,G49E,2,32,256,G49E 48GB,4.970967,0.65631075,cn-hangzhou,cn-hangzhou-b,ecs.gn8te,X86
 ecs.gn8v.4xlarge,H,1,16,96,H 96GB,5.0327496,0.91540037,cn-hangzhou,cn-hangzhou-b,ecs.gn8v,X86
 ecs.gn8v.6xlarge,H,1,24,128,H 96GB,5.3230878,0.96766124,cn-hangzhou,cn-hangzhou-b,ecs.gn8v,X86
@@ -487,16 +488,10 @@ ecs.sgn8ia-m16.8xlarge,v8-16G,1,32,128,v8-16G 16GB,1.176312,0.1630056,cn-hangzho
 ecs.sgn8ia-m2.xlarge,v8-2G,1,4,16,v8-2G 2GB,0.16301526,0.03127703,cn-hangzhou,cn-hangzhou-b,ecs.sgn8ia,X86
 ecs.sgn8ia-m24.12xlarge,v8-24G,1,48,192,v8-24G 24GB,1.72673218,0.23456023,cn-hangzhou,cn-hangzhou-b,ecs.sgn8ia,X86
 ecs.sgn8ia-m4.2xlarge,v8-4G,1,8,32,v8-4G 4GB,0.31443853,0.05096205,cn-hangzhou,cn-hangzhou-b,ecs.sgn8ia,X86
-ecs.sgn8ia-m48.24xlarge,v8-48G,1,96,384,v8-48G 48GB,3.37862226,0.95436047,cn-hangzhou,cn-hangzhou-b,ecs.sgn8ia,X86
 ecs.sgn8ia-m8.4xlarge,v8-8G,1,16,64,v8-8G 8GB,0.61728504,0.0903321,cn-hangzhou,cn-hangzhou-b,ecs.sgn8ia,X86
 ecs.gn5i-c40g1.10xlarge,P4,1,40,160,P4 8GB,3.796932,1.714995,cn-hangzhou,cn-hangzhou-g,ecs.gn5i,X86
 ecs.gn5i-c48g1.12xlarge,P4,1,48,192,P4 8GB,4.343412,1.960911,cn-hangzhou,cn-hangzhou-g,ecs.gn5i,X86
 ecs.gn6e-c12g1.3xlarge,V100,1,12,92,V100 32GB,2.735574,0.85602642,cn-hangzhou,cn-hangzhou-h,ecs.gn6e,X86
-ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,2.276172,0.7136118,cn-hangzhou,cn-hangzhou-h,ecs.gn6i,X86
-ecs.gn6i-c24g1.6xlarge,T4,1,24,93,T4 16GB,2.383812,0.7469802,cn-hangzhou,cn-hangzhou-h,ecs.gn6i,X86
-ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,2.056614,0.64554882,cn-hangzhou,cn-hangzhou-h,ecs.gn6i,X86
-ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.616532,0.5091234,cn-hangzhou,cn-hangzhou-h,ecs.gn6i,X86
-ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.943592,0.610512,cn-hangzhou,cn-hangzhou-h,ecs.gn6i,X86
 ecs.gn6v-c8g1.2xlarge,V100,1,8,32,V100 16GB,3.663072,1.1435508,cn-hangzhou,cn-hangzhou-h,ecs.gn6v,X86
 ecs.gn6v-c8g1.4xlarge,V100,2,16,64,V100 16GB,7.314552,2.2755096,cn-hangzhou,cn-hangzhou-h,ecs.gn6v,X86
 ecs.gn6v-c8g1.8xlarge,V100,4,32,128,V100 16GB,14.617512,4.5394272,cn-hangzhou,cn-hangzhou-h,ecs.gn6v,X86
@@ -514,7 +509,7 @@ ecs.gn6v-c8g1.2xlarge,V100,1,8,32,V100 16GB,3.663072,0.8149176,cn-hangzhou,cn-ha
 ecs.gn6v-c8g1.4xlarge,V100,2,16,64,V100 16GB,7.314552,1.6182432,cn-hangzhou,cn-hangzhou-i,ecs.gn6v,X86
 ecs.gn6v-c8g1.8xlarge,V100,4,32,128,V100 16GB,14.617512,3.2248944,cn-hangzhou,cn-hangzhou-i,ecs.gn6v,X86
 ecs.sgn6i-vws-m2.xlarge,T4/8,1,4,10,T4/8 2GB,0.24717588,0.06342046,cn-hangzhou,cn-hangzhou-i,ecs.sgn6i-vws,X86
-ecs.sgn6i-vws-m4.2xlarge,T4/4,1,8,16,T4/4 4GB,0.42015185,0.09738957,cn-hangzhou,cn-hangzhou-i,ecs.sgn6i-vws,X86
+ecs.sgn6i-vws-m4.2xlarge,T4/4,1,8,16,T4/4 4GB,0.42015185,0.10147517,cn-hangzhou,cn-hangzhou-i,ecs.sgn6i-vws,X86
 ecs.sgn6i-vws-m8.4xlarge,T4/2,1,16,32,T4/2 8GB,0.75976121,0.108854,cn-hangzhou,cn-hangzhou-i,ecs.sgn6i-vws,X86
 ecs.vgn6i-m16-vws.5xlarge,T4,1,20,92,T4 16GB,1.55500884,0.21223619,cn-hangzhou,cn-hangzhou-i,ecs.vgn6i-vws,X86
 ecs.vgn6i-m4-vws.xlarge,T4/4,1,4,23,T4/4 4GB,0.46336525,0.07032252,cn-hangzhou,cn-hangzhou-i,ecs.vgn6i-vws,X86
@@ -525,9 +520,12 @@ ecs.gn6i-c24g1.6xlarge,T4,1,24,93,T4 16GB,2.383812,0.7469802,cn-hangzhou,cn-hang
 ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,2.056614,0.64554882,cn-hangzhou,cn-hangzhou-j,ecs.gn6i,X86
 ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.616532,0.5091234,cn-hangzhou,cn-hangzhou-j,ecs.gn6i,X86
 ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.943592,0.610512,cn-hangzhou,cn-hangzhou-j,ecs.gn6i,X86
-ecs.gn7e-c16g1.4xlarge,A100 80G,1,16,125,A100 80G 80GB,4.805988,1.49785476,cn-hangzhou,cn-hangzhou-j,ecs.gn7e,X86
+ecs.gn7i-2x.8xlarge,A10,2,32,128,A10 24GB,2.7973566,0.87517903,cn-hangzhou,cn-hangzhou-j,ecs.gn7i,X86
 ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.4044812,0.44338765,cn-hangzhou,cn-hangzhou-j,ecs.gn7i,X86
+ecs.gn7i-c32g1.16xlarge,A10,2,64,376,A10 24GB,3.6846828,1.15025015,cn-hangzhou,cn-hangzhou-j,ecs.gn7i,X86
 ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,1.8481374,0.58092107,cn-hangzhou,cn-hangzhou-j,ecs.gn7i,X86
+ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,2.487864,0.77923632,cn-hangzhou,cn-hangzhou-j,ecs.gn7i,X86
+ecs.gn7i-c56g1.14xlarge,A10,1,56,346,A10 24GB,2.983146,0.93277374,cn-hangzhou,cn-hangzhou-j,ecs.gn7i,X86
 ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,1.3270908,0.41939663,cn-hangzhou,cn-hangzhou-j,ecs.gn7i,X86
 ecs.gn7s-c16g1.4xlarge,A30,1,16,120,A30,2.425902,0.7600281,cn-hangzhou,cn-hangzhou-j,ecs.gn7s,X86
 ecs.gn7s-c32g1.16xlarge,A30,2,64,500,A30,5.376756,1.67479284,cn-hangzhou,cn-hangzhou-j,ecs.gn7s,X86
@@ -553,17 +551,17 @@ ecs.sgn8ia-m8.4xlarge,v8-8G,1,16,64,v8-8G 8GB,0.61728504,0.0903321,cn-hangzhou,c
 ecs.vgn6i-m16-vws.5xlarge,T4,1,20,92,T4 16GB,1.55500884,0.21223619,cn-hangzhou,cn-hangzhou-j,ecs.vgn6i-vws,X86
 ecs.vgn6i-m4-vws.xlarge,T4/4,1,4,23,T4/4 4GB,0.46336525,0.11098212,cn-hangzhou,cn-hangzhou-j,ecs.vgn6i-vws,X86
 ecs.vgn6i-m8-vws.2xlarge,T4/2,1,10,46,T4/2 8GB,0.82710184,0.11760828,cn-hangzhou,cn-hangzhou-j,ecs.vgn6i-vws,X86
-ecs.vgn7i-vws-m12.3xlarge,A10*1/2,1,14,93,A10*1/2 12GB,1.12382108,0.34526071,cn-hangzhou,cn-hangzhou-j,ecs.vgn7i-vws,X86
-ecs.vgn7i-vws-m24.7xlarge,A10*1,1,30,186,A10*1 24GB,2.1555867,0.61191049,cn-hangzhou,cn-hangzhou-j,ecs.vgn7i-vws,X86
-ecs.vgn7i-vws-m4.xlarge,A10*1/6,1,4,30,A10*1/6 4GB,0.43597733,0.06676209,cn-hangzhou,cn-hangzhou-j,ecs.vgn7i-vws,X86
-ecs.vgn7i-vws-m8.2xlarge,A10*1/3,1,10,62,A10*1/3 8GB,0.7798992,0.18061958,cn-hangzhou,cn-hangzhou-j,ecs.vgn7i-vws,X86
+ecs.vgn7i-vws-m12.3xlarge,A10*1/2,1,14,93,A10*1/2 12GB,1.12382108,0.35638303,cn-hangzhou,cn-hangzhou-j,ecs.vgn7i-vws,X86
+ecs.vgn7i-vws-m24.7xlarge,A10*1,1,30,186,A10*1 24GB,2.1555867,0.59047059,cn-hangzhou,cn-hangzhou-j,ecs.vgn7i-vws,X86
+ecs.vgn7i-vws-m4.xlarge,A10*1/6,1,4,30,A10*1/6 4GB,0.43597733,0.08798136,cn-hangzhou,cn-hangzhou-j,ecs.vgn7i-vws,X86
+ecs.vgn7i-vws-m8.2xlarge,A10*1/3,1,10,62,A10*1/3 8GB,0.7798992,0.20366879,cn-hangzhou,cn-hangzhou-j,ecs.vgn7i-vws,X86
 ecs.av8m.16xlarge,VG1000,1,64,256,VG1000 64GB,0.840972,0.758034,cn-hangzhou,cn-hangzhou-k,ecs.av8m,ARM
 ecs.gn6v-c10g1.20xlarge,V100,8,82,336,V100 16GB,30.321912,9.4077912,cn-hangzhou,cn-hangzhou-k,ecs.gn6v,X86
 ecs.gn6v-c8g1.16xlarge,V100,8,64,256,V100 16GB,29.223432,9.0672624,cn-hangzhou,cn-hangzhou-k,ecs.gn6v,X86
 ecs.gn6v-c8g1.2xlarge,V100,1,8,32,V100 16GB,3.663072,1.1435508,cn-hangzhou,cn-hangzhou-k,ecs.gn6v,X86
 ecs.gn6v-c8g1.4xlarge,V100,2,16,64,V100 16GB,7.314552,2.2755096,cn-hangzhou,cn-hangzhou-k,ecs.gn6v,X86
 ecs.gn6v-c8g1.8xlarge,V100,4,32,128,V100 16GB,14.617512,4.5394272,cn-hangzhou,cn-hangzhou-k,ecs.gn6v,X86
-ecs.gn7e-c16g1.4xlarge,A100 80G,1,16,125,A100 80G 80GB,4.805988,1.49785476,cn-hangzhou,cn-hangzhou-k,ecs.gn7e,X86
+ecs.gn7i-2x.8xlarge,A10,2,32,128,A10 24GB,2.7973566,0.87517903,cn-hangzhou,cn-hangzhou-k,ecs.gn7i,X86
 ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.4044812,0.44338765,cn-hangzhou,cn-hangzhou-k,ecs.gn7i,X86
 ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,1.8481374,0.58092107,cn-hangzhou,cn-hangzhou-k,ecs.gn7i,X86
 ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,2.487864,0.77923632,cn-hangzhou,cn-hangzhou-k,ecs.gn7i,X86
@@ -586,28 +584,44 @@ ecs.sgn8ia-m16.8xlarge,v8-16G,1,32,128,v8-16G 16GB,1.176312,0.1630056,cn-hangzho
 ecs.sgn8ia-m2.xlarge,v8-2G,1,4,16,v8-2G 2GB,0.16301526,0.03127703,cn-hangzhou,cn-hangzhou-k,ecs.sgn8ia,X86
 ecs.sgn8ia-m24.12xlarge,v8-24G,1,48,192,v8-24G 24GB,1.72673218,0.23456023,cn-hangzhou,cn-hangzhou-k,ecs.sgn8ia,X86
 ecs.sgn8ia-m4.2xlarge,v8-4G,1,8,32,v8-4G 4GB,0.31443853,0.05096205,cn-hangzhou,cn-hangzhou-k,ecs.sgn8ia,X86
-ecs.sgn8ia-m48.24xlarge,v8-48G,1,96,384,v8-48G 48GB,3.37862226,0.44930596,cn-hangzhou,cn-hangzhou-k,ecs.sgn8ia,X86
+ecs.sgn8ia-m48.24xlarge,v8-48G,1,96,384,v8-48G 48GB,3.37862226,0.75233874,cn-hangzhou,cn-hangzhou-k,ecs.sgn8ia,X86
 ecs.sgn8ia-m8.4xlarge,v8-8G,1,16,64,v8-8G 8GB,0.61728504,0.0903321,cn-hangzhou,cn-hangzhou-k,ecs.sgn8ia,X86
-ecs.vgn7i-vws-m12.3xlarge,A10*1/2,1,14,93,A10*1/2 12GB,1.12382108,0.15618178,cn-hangzhou,cn-hangzhou-k,ecs.vgn7i-vws,X86
-ecs.vgn7i-vws-m24.7xlarge,A10*1,1,30,186,A10*1 24GB,2.1555867,0.29031132,cn-hangzhou,cn-hangzhou-k,ecs.vgn7i-vws,X86
-ecs.vgn7i-vws-m4.xlarge,A10*1/6,1,4,30,A10*1/6 4GB,0.43597733,0.06676209,cn-hangzhou,cn-hangzhou-k,ecs.vgn7i-vws,X86
-ecs.vgn7i-vws-m8.2xlarge,A10*1/3,1,10,62,A10*1/3 8GB,0.7798992,0.11147193,cn-hangzhou,cn-hangzhou-k,ecs.vgn7i-vws,X86
+ecs.vgn7i-vws-m12.3xlarge,A10*1/2,1,14,93,A10*1/2 12GB,1.12382108,0.25628239,cn-hangzhou,cn-hangzhou-k,ecs.vgn7i-vws,X86
+ecs.vgn7i-vws-m24.7xlarge,A10*1,1,30,186,A10*1 24GB,2.1555867,0.39751106,cn-hangzhou,cn-hangzhou-k,ecs.vgn7i-vws,X86
+ecs.vgn7i-vws-m4.xlarge,A10*1/6,1,4,30,A10*1/6 4GB,0.43597733,0.07949364,cn-hangzhou,cn-hangzhou-k,ecs.vgn7i-vws,X86
+ecs.vgn7i-vws-m8.2xlarge,A10*1/3,1,10,62,A10*1/3 8GB,0.7798992,0.14988729,cn-hangzhou,cn-hangzhou-k,ecs.vgn7i-vws,X86
+ecs.gn7i-2x.8xlarge,A10,2,32,128,A10 24GB,2.7973566,0.87517903,cn-heyuan,cn-heyuan-a,ecs.gn7i,X86
+ecs.gn7i-4x.16xlarge,A10,4,64,256,A10 24GB,5.5831212,1.73876605,cn-heyuan,cn-heyuan-a,ecs.gn7i,X86
+ecs.gn7i-4x.8xlarge,A10,4,32,128,A10 24GB,5.273601,1.64281479,cn-heyuan,cn-heyuan-a,ecs.gn7i,X86
+ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.265184,0.40020552,cn-heyuan,cn-heyuan-a,ecs.gn7i,X86
+ecs.gn7i-c32g1.16xlarge,A10,2,64,376,A10 24GB,3.3173682,1.03638262,cn-heyuan,cn-heyuan-a,ecs.gn7i,X86
+ecs.gn7i-c32g1.32xlarge,A10,4,128,752,A10 24GB,6.6231444,2.06117324,cn-heyuan,cn-heyuan-a,ecs.gn7i,X86
+ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,1.664487,0.52398945,cn-heyuan,cn-heyuan-a,ecs.gn7i,X86
+ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,2.487864,0.77923632,cn-heyuan,cn-heyuan-a,ecs.gn7i,X86
+ecs.gn7i-c56g1.14xlarge,A10,1,56,346,A10 24GB,2.983146,0.93277374,cn-heyuan,cn-heyuan-a,ecs.gn7i,X86
+ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,1.1955492,0.37861873,cn-heyuan,cn-heyuan-a,ecs.gn7i,X86
 ecs.vgn7i-vws-m12.3xlarge,A10*1/2,1,14,93,A10*1/2 12GB,1.1368687,0.15787796,cn-heyuan,cn-heyuan-a,ecs.vgn7i-vws,X86
 ecs.vgn7i-vws-m24.7xlarge,A10*1,1,30,186,A10*1 24GB,2.1686344,0.2920075,cn-heyuan,cn-heyuan-a,ecs.vgn7i-vws,X86
 ecs.vgn7i-vws-m4.xlarge,A10*1/6,1,4,30,A10*1/6 4GB,0.44902495,0.06845828,cn-heyuan,cn-heyuan-a,ecs.vgn7i-vws,X86
 ecs.vgn7i-vws-m8.2xlarge,A10*1/3,1,10,62,A10*1/3 8GB,0.79294676,0.11316813,cn-heyuan,cn-heyuan-a,ecs.vgn7i-vws,X86
 ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,2.276172,0.7136118,cn-heyuan,cn-heyuan-b,ecs.gn6i,X86
 ecs.gn6i-c24g1.6xlarge,T4,1,24,93,T4 16GB,2.383812,0.7469802,cn-heyuan,cn-heyuan-b,ecs.gn6i,X86
+ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,2.056614,0.64554882,cn-heyuan,cn-heyuan-b,ecs.gn6i,X86
 ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.616532,0.5091234,cn-heyuan,cn-heyuan-b,ecs.gn6i,X86
 ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.943592,0.610512,cn-heyuan,cn-heyuan-b,ecs.gn6i,X86
 ecs.gn7i-2x.8xlarge,A10,2,32,128,A10 24GB,2.7973566,0.87517903,cn-heyuan,cn-heyuan-b,ecs.gn7i,X86
-ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.265184,0.40020552,cn-heyuan,cn-heyuan-b,ecs.gn7i,X86
+ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.265184,0.36259776,cn-heyuan,cn-heyuan-b,ecs.gn7i,X86
 ecs.gn7i-c32g1.16xlarge,A10,2,64,376,A10 24GB,3.3173682,1.03638262,cn-heyuan,cn-heyuan-b,ecs.gn7i,X86
 ecs.gn7i-c32g1.32xlarge,A10,4,128,752,A10 24GB,6.6231444,2.06117324,cn-heyuan,cn-heyuan-b,ecs.gn7i,X86
-ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,1.664487,0.52398945,cn-heyuan,cn-heyuan-b,ecs.gn7i,X86
+ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,1.664487,0.49093155,cn-heyuan,cn-heyuan-b,ecs.gn7i,X86
 ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,2.487864,0.68018544,cn-heyuan,cn-heyuan-b,ecs.gn7i,X86
 ecs.gn7i-c56g1.14xlarge,A10,1,56,346,A10 24GB,2.983146,0.93277374,cn-heyuan,cn-heyuan-b,ecs.gn7i,X86
-ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,1.1955492,0.37861873,cn-heyuan,cn-heyuan-b,ecs.gn7i,X86
+ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,1.1955492,0.34310002,cn-heyuan,cn-heyuan-b,ecs.gn7i,X86
+ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,2.41743611,0.75641029,cn-hongkong,cn-hongkong-b,ecs.gn7i,X86
+ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,2.68491185,0.83932781,cn-hongkong,cn-hongkong-b,ecs.gn7i,X86
+ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,3.21986375,1.00516296,cn-hongkong,cn-hongkong-b,ecs.gn7i,X86
+ecs.gn7i-c56g1.14xlarge,A10,1,56,346,A10 24GB,3.86180608,1.20416509,cn-hongkong,cn-hongkong-b,ecs.gn7i,X86
+ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,2.28369797,0.7149515,cn-hongkong,cn-hongkong-b,ecs.gn7i,X86
 ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.5564362,0.4684835,cn-hongkong,cn-hongkong-b,ecs.gn8is,X86
 ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,2.82132334,0.51616317,cn-hongkong,cn-hongkong-b,ecs.gn8is,X86
 ecs.sgn7i-vws-m2.xlarge,A10*1/12,1,4,15.5,A10*1/12 2GB,0.33067026,0.05181971,cn-hongkong,cn-hongkong-b,ecs.sgn7i-vws,X86
@@ -633,11 +647,18 @@ ecs.sgn8ga-wy-64g-m8.8xlarge,RTX 5880,1,32,64,RTX 5880 8GB,0.90657278,0.28804271
 ecs.sgn8ga-wy-64g-x1-ne.8xlarge,RTX 5880,1,32,64,RTX 5880 48GB,2.47661258,0.77475505,cn-hongkong,cn-hongkong-b,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-x1.8xlarge,RTX 5880,1,32,64,RTX 5880 48GB,2.25236258,0.70523755,cn-hongkong,cn-hongkong-b,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-8g-m2.xlarge,RTX 5880,1,4,8,RTX 5880 2GB,0.15937178,0.0564104,cn-hongkong,cn-hongkong-b,ecs.sgn8ga-wy,X86
-ecs.ebmgn8is.32xlarge,L20,8,128,1024,L20 48GB,20.45248596,2.66765592,cn-hongkong,cn-hongkong-c,ecs.ebmgn8is,X86
-ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.5564362,0.4684835,cn-hongkong,cn-hongkong-c,ecs.gn8is,X86
-ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,2.82132334,0.51616317,cn-hongkong,cn-hongkong-c,ecs.gn8is,X86
+ecs.ebmgn8is.32xlarge,L20,8,128,1024,L20 48GB,20.45248596,1.84996231,cn-hongkong,cn-hongkong-c,ecs.ebmgn8is,X86
+ecs.gn8is-2x.8xlarge,L20,2,32,256,L20 48GB,5.6324907,0.74105637,cn-hongkong,cn-hongkong-c,ecs.gn8is,X86
+ecs.gn8is-4x.16xlarge,L20,4,64,512,L20 48GB,11.25482874,2.03419424,cn-hongkong,cn-hongkong-c,ecs.gn8is,X86
+ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.5564362,0.34116931,cn-hongkong,cn-hongkong-c,ecs.gn8is,X86
+ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,2.82132334,0.37560463,cn-hongkong,cn-hongkong-c,ecs.gn8is,X86
 ecs.ebmgn8is.32xlarge,L20,8,128,1024,L20 48GB,20.45248596,1.84996231,cn-hongkong,cn-hongkong-d,ecs.ebmgn8is,X86
 ecs.gn6e-c12g1.3xlarge,V100,1,12,92,V100 32GB,4.03174852,1.25684714,cn-hongkong,cn-hongkong-d,ecs.gn6e,X86
+ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,1.70617238,0.53591858,cn-hongkong,cn-hongkong-d,ecs.gn6i,X86
+ecs.gn6i-c24g1.6xlarge,T4,1,24,93,T4 16GB,2.13535238,0.66896438,cn-hongkong,cn-hongkong-d,ecs.gn6i,X86
+ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,2.92043425,0.9123398,cn-hongkong,cn-hongkong-d,ecs.gn6i,X86
+ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.09897238,0.34768658,cn-hongkong,cn-hongkong-d,ecs.gn6i,X86
+ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.30045238,0.41014538,cn-hongkong,cn-hongkong-d,ecs.gn6i,X86
 ecs.gn7e-c16g1.4xlarge,A100 80G,1,16,125,A100 80G 80GB,5.65476611,1.75998272,cn-hongkong,cn-hongkong-d,ecs.gn7e,X86
 ecs.gn7e-c16g1.8xlarge,A100 80G,2,32,250,A100 80G 80GB,11.29938066,3.50981306,cn-hongkong,cn-hongkong-d,ecs.gn7e,X86
 ecs.gn8e-2x.12xlarge,H-e,2,48,512,H-e 141GB,20.19637866,18.17775606,cn-hongkong,cn-hongkong-d,ecs.gn8e,X86
@@ -649,22 +670,28 @@ ecs.gn8ep-4x.24xlarge,H-e,4,96,1024,H-e 141GB,41.19005646,5.36353974,cn-hongkong
 ecs.gn8ep-8x.48xlarge,H-e,8,192,2048,H-e 141GB,80.75506632,10.50699156,cn-hongkong,cn-hongkong-d,ecs.gn8ep,X86
 ecs.gn8ep.6xlarge,H-e,1,24,256,H-e 141GB,10.30513151,1.34849971,cn-hongkong,cn-hongkong-d,ecs.gn8ep,X86
 ecs.gn8is-2x.8xlarge,L20,2,32,256,L20 48GB,5.6324907,1.02217331,cn-hongkong,cn-hongkong-d,ecs.gn8is,X86
+ecs.gn8is-4x.16xlarge,L20,4,64,512,L20 48GB,11.25482874,2.03419424,cn-hongkong,cn-hongkong-d,ecs.gn8is,X86
+ecs.gn8is-8x.32xlarge,L20,8,128,1024,L20 48GB,20.45501964,3.69022847,cn-hongkong,cn-hongkong-d,ecs.gn8is,X86
 ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.5564362,0.4684835,cn-hongkong,cn-hongkong-d,ecs.gn8is,X86
 ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,2.82132334,0.51616317,cn-hongkong,cn-hongkong-d,ecs.gn8is,X86
 ecs.sgn8ga-wy-128g-m24.16xlarge,RTX 5880,1,64,128,RTX 5880 24GB,1.87861718,0.25305281,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-128g-x1.16xlarge,RTX 5880,1,64,128,RTX 5880 48GB,2.99986732,0.93696397,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-128g-x1.16xlarge,RTX 5880,1,64,128,RTX 5880 48GB,2.99986732,0.69778679,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-12g-m2.3large,RTX 5880,1,6,12,RTX 5880 2GB,0.17057738,0.03100763,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-16g-m2.2xlarge,RTX 5880,1,8,16,RTX 5880 2GB,0.23411258,0.03926721,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-16g-m4.2xlarge,RTX 5880,1,8,16,RTX 5880 4GB,0.30886718,0.04898531,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-256g-x1.16xlarge,RTX 5880,1,64,256,RTX 5880 48GB,3.74737165,1.1686904,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-256g-x1.16xlarge,RTX 5880,1,64,256,RTX 5880 48GB,3.74737165,0.86971285,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-256g-x2-ne.16xlarge,RTX 5880,2,64,256,RTX 5880 48GB,6.17673786,1.42846698,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-256g-x2.16xlarge,RTX 5880,2,64,256,RTX 5880 48GB,5.61611286,1.29952323,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-32g-m12.4xlarge,RTX 5880,1,16,32,RTX 5880 12GB,0.71998298,0.10243036,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-32g-m8.4xlarge,RTX 5880,1,16,32,RTX 5880 8GB,0.57048758,0.08299596,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-384g-x4-ne.24xlarge,RTX 5880,4,96,384,RTX 5880 48GB,11.93248326,2.75228828,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-384g-x4.24xlarge,RTX 5880,4,96,384,RTX 5880 48GB,10.84861746,2.50299929,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-m12.8xlarge,RTX 5880,1,32,64,RTX 5880 12GB,0.90686258,0.12672471,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-m16.8xlarge,RTX 5880,1,32,64,RTX 5880 16GB,1.05635798,0.14615911,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-m24.8xlarge,RTX 5880,1,32,64,RTX 5880 24GB,1.50487178,0.20446591,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-m8.8xlarge,RTX 5880,1,32,64,RTX 5880 8GB,0.90657278,0.12668704,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-64g-x1-ne.8xlarge,RTX 5880,1,32,64,RTX 5880 48GB,2.47661258,0.47877982,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-64g-x1.8xlarge,RTX 5880,1,32,64,RTX 5880 48GB,2.25236258,0.70523755,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-64g-x1-ne.8xlarge,RTX 5880,1,32,64,RTX 5880 48GB,2.47661258,0.35545681,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-64g-x1.8xlarge,RTX 5880,1,32,64,RTX 5880 48GB,2.25236258,0.52586073,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-8g-m2.xlarge,RTX 5880,1,4,8,RTX 5880 2GB,0.15937178,0.02955091,cn-hongkong,cn-hongkong-d,ecs.sgn8ga-wy,X86
 ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,2.276172,0.23805,cn-nanjing,cn-nanjing-a,ecs.gn6i,X86
 ecs.gn6i-c24g1.6xlarge,T4,1,24,93,T4 16GB,2.383812,0.248814,cn-nanjing,cn-nanjing-a,ecs.gn6i,X86
@@ -716,28 +743,30 @@ ecs.sgn8ga-wy-8g-m2.xlarge,RTX 5880,1,4,8,RTX 5880 2GB,0.126132,0.0470994,cn-qin
 ecs.ga1.2xlarge,AMD S7150/2,1,8,20,AMD S7150/2,0.618792,0.199824,cn-shanghai,cn-shanghai-b,ecs.ga1,X86
 ecs.ga1.4xlarge,AMD S7150,1,16,40,AMD S7150,1.224612,0.2784564,cn-shanghai,cn-shanghai-b,ecs.ga1,X86
 ecs.ga1.xlarge,AMD S7150/4,1,4,10,AMD S7150/4,0.315192,0.105708,cn-shanghai,cn-shanghai-b,ecs.ga1,X86
-ecs.gn5i-c40g1.10xlarge,P4,1,40,160,P4 8GB,3.796932,1.714995,cn-shanghai,cn-shanghai-b,ecs.gn5i,X86
-ecs.gn5i-c48g1.12xlarge,P4,1,48,192,P4 8GB,4.343412,1.960911,cn-shanghai,cn-shanghai-b,ecs.gn5i,X86
 ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,2.276172,0.7136118,cn-shanghai,cn-shanghai-b,ecs.gn6i,X86
-ecs.gn6i-c24g1.12xlarge,T4,2,48,186,T4 16GB,4.756032,1.4823684,cn-shanghai,cn-shanghai-b,ecs.gn6i,X86
 ecs.gn6i-c24g1.6xlarge,T4,1,24,93,T4 16GB,2.383812,0.7469802,cn-shanghai,cn-shanghai-b,ecs.gn6i,X86
 ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,2.056614,0.64554882,cn-shanghai,cn-shanghai-b,ecs.gn6i,X86
 ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.616532,0.5091234,cn-shanghai,cn-shanghai-b,ecs.gn6i,X86
 ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.943592,0.610512,cn-shanghai,cn-shanghai-b,ecs.gn6i,X86
 ecs.gn5i-c12g1.6xlarge,P4,2,24,96,P4 8GB,0.011592,0.011592,cn-shanghai,cn-shanghai-d,ecs.gn5i,X86
-ecs.gn5i-c40g1.10xlarge,P4,1,40,160,P4 8GB,3.796932,1.4121678,cn-shanghai,cn-shanghai-d,ecs.gn5i,X86
+ecs.gn5i-c40g1.10xlarge,P4,1,40,160,P4 8GB,3.796932,1.525728,cn-shanghai,cn-shanghai-d,ecs.gn5i,X86
 ecs.gn5i-c48g1.12xlarge,P4,1,48,192,P4 8GB,4.343412,1.960911,cn-shanghai,cn-shanghai-d,ecs.gn5i,X86
 ecs.ebmgn6v.24xlarge,Nvidia Tesla V100,8,96,384,Nvidia Tesla V100 16GB,32.734842,4.2656145,cn-shanghai,cn-shanghai-e,ecs.ebmgn6v,X86
 ecs.f3-c12f1.3xlarge,Xilinx VU9p,1,12,48,Xilinx VU9p 64GB,1.100964,0.34929732,cn-shanghai,cn-shanghai-e,ecs.f3,X86
 ecs.f3-c16f1.4xlarge,Xilinx VU9p,1,16,64,Xilinx VU9p 64GB,1.460592,0.460782,cn-shanghai,cn-shanghai-e,ecs.f3,X86
 ecs.f3-c4f1.xlarge,Xilinx VU9p,1,4,16,Xilinx VU9p 64GB,1.020648,0.32439936,cn-shanghai,cn-shanghai-e,ecs.f3,X86
 ecs.f3-c8f1.2xlarge,Xilinx VU9p,1,8,32,Xilinx VU9p 64GB,1.167342,0.3698745,cn-shanghai,cn-shanghai-e,ecs.f3,X86
+ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,2.276172,0.7136118,cn-shanghai,cn-shanghai-e,ecs.gn6i,X86
+ecs.gn6i-c24g1.6xlarge,T4,1,24,93,T4 16GB,2.383812,0.7469802,cn-shanghai,cn-shanghai-e,ecs.gn6i,X86
+ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.616532,0.5091234,cn-shanghai,cn-shanghai-e,ecs.gn6i,X86
+ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.943592,0.610512,cn-shanghai,cn-shanghai-e,ecs.gn6i,X86
+ecs.sgn8ga-wy-128g-m24.16xlarge,RTX 5880,1,64,128,RTX 5880 24GB,1.448172,0.4569318,cn-shanghai,cn-shanghai-e,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-16g-m4.2xlarge,RTX 5880,1,8,16,RTX 5880 4GB,0.240672,0.0619896,cn-shanghai,cn-shanghai-e,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-32g-m12.4xlarge,RTX 5880,1,16,32,RTX 5880 12GB,0.585672,0.1895568,cn-shanghai,cn-shanghai-e,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-32g-m4.4xlarge,RTX 5880,1,16,32,RTX 5880 4GB,0.356592,0.087492,cn-shanghai,cn-shanghai-e,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-32g-m12.4xlarge,RTX 5880,1,16,32,RTX 5880 12GB,0.585672,0.1665936,cn-shanghai,cn-shanghai-e,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-32g-m4.4xlarge,RTX 5880,1,16,32,RTX 5880 4GB,0.356592,0.080592,cn-shanghai,cn-shanghai-e,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-32g-m8.4xlarge,RTX 5880,1,16,32,RTX 5880 8GB,0.442152,0.1450656,cn-shanghai,cn-shanghai-e,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-64g-m12.8xlarge,RTX 5880,1,32,64,RTX 5880 12GB,0.787152,0.2520156,cn-shanghai,cn-shanghai-e,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-64g-m16.8xlarge,RTX 5880,1,32,64,RTX 5880 16GB,0.816132,0.1885908,cn-shanghai,cn-shanghai-e,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-64g-m12.8xlarge,RTX 5880,1,32,64,RTX 5880 12GB,0.787152,0.2209932,cn-shanghai,cn-shanghai-e,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-64g-m24.8xlarge,RTX 5880,1,32,64,RTX 5880 24GB,1.161132,0.3679494,cn-shanghai,cn-shanghai-e,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-m8.8xlarge,RTX 5880,1,32,64,RTX 5880 8GB,0.585672,0.1895568,cn-shanghai,cn-shanghai-e,ecs.sgn8ga-wy,X86
 ecs.ebmgn6v.24xlarge,Nvidia Tesla V100,8,96,384,Nvidia Tesla V100 16GB,32.734842,4.2656145,cn-shanghai,cn-shanghai-f,ecs.ebmgn6v,X86
 ecs.gn6v-c8g1.2xlarge,V100,1,8,32,V100 16GB,3.663072,1.1435508,cn-shanghai,cn-shanghai-f,ecs.gn6v,X86
@@ -769,7 +798,6 @@ ecs.sgn6i-vws-m8.4xlarge,T4/2,1,16,32,T4/2 8GB,0.75615582,0.1083853,cn-shanghai,
 ecs.av8m.16xlarge,VG1000,1,64,256,VG1000 64GB,0.840972,0.758034,cn-shanghai,cn-shanghai-l,ecs.av8m,ARM
 ecs.ebmgn6v.24xlarge,Nvidia Tesla V100,8,96,384,Nvidia Tesla V100 16GB,32.734842,4.2656145,cn-shanghai,cn-shanghai-l,ecs.ebmgn6v,X86
 ecs.ebmgn7t.32xlarge,G39,8,128,768,G39 24GB,12.89159237,2.84519182,cn-shanghai,cn-shanghai-l,ecs.ebmgn7t,X86
-ecs.ebmgn8is.32xlarge,L20,8,128,1024,L20 48GB,15.923889,2.87580546,cn-shanghai,cn-shanghai-l,ecs.ebmgn8is,X86
 ecs.ebmgn8t.32xlarge,G49,8,128,1024,G49 24GB,15.2490966,4.73521815,cn-shanghai,cn-shanghai-l,ecs.ebmgn8t,X86
 ecs.gn6e-c12g1.3xlarge,V100,1,12,92,V100 32GB,2.735574,0.85602642,cn-shanghai,cn-shanghai-l,ecs.gn6e,X86
 ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,2.276172,0.7136118,cn-shanghai,cn-shanghai-l,ecs.gn6i,X86
@@ -789,6 +817,13 @@ ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,1.3270908,0.41939663,cn-shanghai,cn-sh
 ecs.gn7s-c16g1.4xlarge,A30,1,16,120,A30,2.425902,0.7600281,cn-shanghai,cn-shanghai-l,ecs.gn7s,X86
 ecs.gn7s-c32g1.8xlarge,A30,1,32,250,A30,2.694174,0.84319242,cn-shanghai,cn-shanghai-l,ecs.gn7s,X86
 ecs.gn7s-c8g1.2xlarge,A30,1,8,60,A30,2.291766,0.51323028,cn-shanghai,cn-shanghai-l,ecs.gn7s,X86
+ecs.gn7t-c16g1.4xlarge,G39,1,16,94,G39 24GB,1.621638,0.51070626,cn-shanghai,cn-shanghai-l,ecs.gn7t,X86
+ecs.gn8ia-2x.8xlarge,L20,2,32,256,L20 48GB,4.074312,1.2710352,cn-shanghai,cn-shanghai-l,ecs.gn8ia,X86
+ecs.gn8ia.16xlarge,L20,1,64,384,L20 48GB,3.315312,1.0357452,cn-shanghai,cn-shanghai-l,ecs.gn8ia,X86
+ecs.gn8ia.4xlarge,L20,1,16,128,L20 48GB,2.169912,0.6806712,cn-shanghai,cn-shanghai-l,ecs.gn8ia,X86
+ecs.gn8ia.8xlarge,L20,1,32,256,L20 48GB,2.552172,0.7991718,cn-shanghai,cn-shanghai-l,ecs.gn8ia,X86
+ecs.gn8is-2x.8xlarge,L20,2,32,256,L20 48GB,4.38801774,0.79934862,cn-shanghai,cn-shanghai-l,ecs.gn8is,X86
+ecs.gn8is-4x.16xlarge,L20,4,64,512,L20 48GB,8.76444348,1.58710529,cn-shanghai,cn-shanghai-l,ecs.gn8is,X86
 ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.00087642,0.36966319,cn-shanghai,cn-shanghai-l,ecs.gn8is,X86
 ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,2.19980487,0.40547032,cn-shanghai,cn-shanghai-l,ecs.gn8is,X86
 ecs.gn8t-2x.8xlarge,G49,2,32,256,G49 24GB,4.012212,1.2517842,cn-shanghai,cn-shanghai-l,ecs.gn8t,X86
@@ -803,12 +838,12 @@ ecs.sgn7i-vws-m4.2xlarge,A10*1/6,1,8,31,A10*1/6 4GB,0.44328076,0.10656352,cn-sha
 ecs.sgn7i-vws-m4s.2xlarge,A10*1/6,1,8,16,A10*1/6 4GB,0.437598,0.10531332,cn-shanghai,cn-shanghai-l,ecs.sgn7i-vws,X86
 ecs.sgn7i-vws-m8.4xlarge,A10*1/3,1,16,62,A10*1/3 8GB,0.78806509,0.25229867,cn-shanghai,cn-shanghai-l,ecs.sgn7i-vws,X86
 ecs.sgn7i-vws-m8s.4xlarge,A10*1/3,1,16,32,A10*1/3 8GB,0.78246,0.25056108,cn-shanghai,cn-shanghai-l,ecs.sgn7i-vws,X86
-ecs.sgn8ga-wy-16g-m4.2xlarge,RTX 5880,1,8,16,RTX 5880 4GB,0.240672,0.0826068,cn-shanghai,cn-shanghai-l,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-32g-m12.4xlarge,RTX 5880,1,16,32,RTX 5880 12GB,0.585672,0.1895568,cn-shanghai,cn-shanghai-l,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-32g-m4.4xlarge,RTX 5880,1,16,32,RTX 5880 4GB,0.356592,0.118542,cn-shanghai,cn-shanghai-l,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-16g-m4.2xlarge,RTX 5880,1,8,16,RTX 5880 4GB,0.240672,0.0757344,cn-shanghai,cn-shanghai-l,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-32g-m12.4xlarge,RTX 5880,1,16,32,RTX 5880 12GB,0.585672,0.1723344,cn-shanghai,cn-shanghai-l,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-32g-m4.4xlarge,RTX 5880,1,16,32,RTX 5880 4GB,0.356592,0.108192,cn-shanghai,cn-shanghai-l,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-32g-m8.4xlarge,RTX 5880,1,16,32,RTX 5880 8GB,0.442152,0.1450656,cn-shanghai,cn-shanghai-l,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-64g-m12.8xlarge,RTX 5880,1,32,64,RTX 5880 12GB,0.787152,0.2520156,cn-shanghai,cn-shanghai-l,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-64g-m16.8xlarge,RTX 5880,1,32,64,RTX 5880 16GB,0.816132,0.2609994,cn-shanghai,cn-shanghai-l,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-64g-m12.8xlarge,RTX 5880,1,32,64,RTX 5880 12GB,0.787152,0.2287488,cn-shanghai,cn-shanghai-l,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-64g-m16.8xlarge,RTX 5880,1,32,64,RTX 5880 16GB,0.816132,0.2368632,cn-shanghai,cn-shanghai-l,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-m8.8xlarge,RTX 5880,1,32,64,RTX 5880 8GB,0.585672,0.1895568,cn-shanghai,cn-shanghai-l,ecs.sgn8ga-wy,X86
 ecs.sgn8ia-m16.8xlarge,v8-16G,1,32,128,v8-16G 16GB,1.176312,0.1630056,cn-shanghai,cn-shanghai-l,ecs.sgn8ia,X86
 ecs.sgn8ia-m2.xlarge,v8-2G,1,4,16,v8-2G 2GB,0.16301526,0.03127703,cn-shanghai,cn-shanghai-l,ecs.sgn8ia,X86
@@ -820,18 +855,13 @@ ecs.vgn7i-vws-m12.3xlarge,A10*1/2,1,14,93,A10*1/2 12GB,1.12439633,0.35656132,cn-
 ecs.vgn7i-vws-m4.xlarge,A10*1/6,1,4,30,A10*1/6 4GB,0.43655255,0.06683687,cn-shanghai,cn-shanghai-l,ecs.vgn7i-vws,X86
 ecs.ebmgn7ix.32xlarge,A10,8,128,512,A10 24GB,11.1546642,3.46594452,cn-shanghai,cn-shanghai-m,ecs.ebmgn7ix,X86
 ecs.gn6e-c12g1.12xlarge,V100,4,48,368,V100 32GB,10.907796,3.38941524,cn-shanghai,cn-shanghai-m,ecs.gn6e,X86
-ecs.gn6e-c12g1.24xlarge,V100,8,96,736,V100 32GB,21.804,6.76723848,cn-shanghai,cn-shanghai-m,ecs.gn6e,X86
 ecs.gn6e-c12g1.3xlarge,V100,1,12,92,V100 32GB,2.735574,0.85602642,cn-shanghai,cn-shanghai-m,ecs.gn6e,X86
-ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,2.276172,0.7136118,cn-shanghai,cn-shanghai-m,ecs.gn6i,X86
-ecs.gn6i-c24g1.6xlarge,T4,1,24,93,T4 16GB,2.383812,0.7469802,cn-shanghai,cn-shanghai-m,ecs.gn6i,X86
-ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,2.056614,0.64554882,cn-shanghai,cn-shanghai-m,ecs.gn6i,X86
 ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.616532,0.5091234,cn-shanghai,cn-shanghai-m,ecs.gn6i,X86
 ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.943592,0.610512,cn-shanghai,cn-shanghai-m,ecs.gn6i,X86
 ecs.gn6v-c8g1.2xlarge,V100,1,8,32,V100 16GB,3.663072,0.8149176,cn-shanghai,cn-shanghai-m,ecs.gn6v,X86
-ecs.gn6v-c8g1.4xlarge,V100,2,16,64,V100 16GB,7.314552,1.6182432,cn-shanghai,cn-shanghai-m,ecs.gn6v,X86
+ecs.gn6v-c8g1.4xlarge,V100,2,16,64,V100 16GB,7.314552,1.6912728,cn-shanghai,cn-shanghai-m,ecs.gn6v,X86
 ecs.gn6v-c8g1.8xlarge,V100,4,32,128,V100 16GB,14.617512,4.5394272,cn-shanghai,cn-shanghai-m,ecs.gn6v,X86
 ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.4044812,0.44338765,cn-shanghai,cn-shanghai-m,ecs.gn7i,X86
-ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,1.8481374,0.58092107,cn-shanghai,cn-shanghai-m,ecs.gn7i,X86
 ecs.gn7i-c48e.12xlarge,A10,1,48,310,A10 24GB,2.4878226,0.77922349,cn-shanghai,cn-shanghai-m,ecs.gn7i,X86
 ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,1.3270908,0.41939663,cn-shanghai,cn-shanghai-m,ecs.gn7i,X86
 ecs.gn7i-xr.4xlarge,A10,1,16,60,A10,0.64409195,0.207667,cn-shanghai,cn-shanghai-m,ecs.gn7i-xr,X86
@@ -844,12 +874,17 @@ ecs.sgn7i-vws-m8s.4xlarge,A10*1/3,1,16,32,A10*1/3 8GB,0.78246,0.11180484,cn-shan
 ecs.vgn7i-vws-m12.3xlarge,A10*1/2,1,14,93,A10*1/2 12GB,1.12439633,0.35656132,cn-shanghai,cn-shanghai-m,ecs.vgn7i-vws,X86
 ecs.vgn7i-vws-m4.xlarge,A10*1/6,1,4,30,A10*1/6 4GB,0.43655255,0.06683687,cn-shanghai,cn-shanghai-m,ecs.vgn7i-vws,X86
 ecs.ebmgn7ix.32xlarge,A10,8,128,512,A10 24GB,11.1546642,3.46594452,cn-shanghai,cn-shanghai-n,ecs.ebmgn7ix,X86
-ecs.ebmgn8te.32xlarge,G49E,8,128,1024,G49E 48GB,19.849092,2.590467,cn-shanghai,cn-shanghai-n,ecs.ebmgn8te,X86
-ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.4044812,0.44338765,cn-shanghai,cn-shanghai-n,ecs.gn7i,X86
-ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,1.3270908,0.41939663,cn-shanghai,cn-shanghai-n,ecs.gn7i,X86
+ecs.gn7t-c16g1.4xlarge,G39,1,16,94,G39 24GB,1.621638,0.51070626,cn-shanghai,cn-shanghai-n,ecs.gn7t,X86
+ecs.gn8ia-2x.8xlarge,L20,2,32,256,L20 48GB,4.074312,1.2710352,cn-shanghai,cn-shanghai-n,ecs.gn8ia,X86
+ecs.gn8ia.16xlarge,L20,1,64,384,L20 48GB,3.315312,1.0357452,cn-shanghai,cn-shanghai-n,ecs.gn8ia,X86
+ecs.gn8ia.4xlarge,L20,1,16,128,L20 48GB,2.169912,0.6806712,cn-shanghai,cn-shanghai-n,ecs.gn8ia,X86
+ecs.gn8ia.8xlarge,L20,1,32,256,L20 48GB,2.552172,0.7991718,cn-shanghai,cn-shanghai-n,ecs.gn8ia,X86
+ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.00087642,0.36966319,cn-shanghai,cn-shanghai-n,ecs.gn8is,X86
+ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,2.19980487,0.40547032,cn-shanghai,cn-shanghai-n,ecs.gn8is,X86
+ecs.gn8te.4xlarge,G49E,1,16,128,G49E 48GB,2.4912864,0.45793699,cn-shanghai,cn-shanghai-n,ecs.gn8te,X86
 ecs.gn9g-2x.16xlarge,L20N 48G,2,64,512,L20N 48G 48GB,13.7813976,1.80166673,cn-shanghai,cn-shanghai-n,ecs.gn9g,X86
 ecs.gn9g-4x.32xlarge,L20N 48G,4,128,1024,L20N 48G 48GB,27.551217,3.59174311,cn-shanghai,cn-shanghai-n,ecs.gn9g,X86
-ecs.gn9g-8x.64xlarge,L20N 48G,8,256,2304,L20N 48G 48GB,53.486592,6.963342,cn-shanghai,cn-shanghai-n,ecs.gn9g,X86
+ecs.gn9g-8x.64xlarge,L20N 48G,8,256,2304,L20N 48G 48GB,53.486592,16.588842,cn-shanghai,cn-shanghai-n,ecs.gn9g,X86
 ecs.gn9g.4xlarge,L20N 48G,1,16,128,L20N 48G 48GB,6.695967,0.88056075,cn-shanghai,cn-shanghai-n,ecs.gn9g,X86
 ecs.gn9g.8xlarge,L20N 48G,1,32,256,L20N 48G 48GB,6.8964948,0.90662936,cn-shanghai,cn-shanghai-n,ecs.gn9g,X86
 ecs.gn9t-2x.12xlarge,G59,2,48,384,G59 32GB,5.5640772,1.73286241,cn-shanghai,cn-shanghai-n,ecs.gn9t,X86
@@ -862,25 +897,25 @@ ecs.sgn8ia-m4.2xlarge,v8-4G,1,8,32,v8-4G 4GB,0.31443853,0.05096205,cn-shanghai,c
 ecs.sgn8ia-m48.24xlarge,v8-48G,1,96,384,v8-48G 48GB,3.37862226,0.44930596,cn-shanghai,cn-shanghai-n,ecs.sgn8ia,X86
 ecs.sgn8ia-m8.4xlarge,v8-8G,1,16,64,v8-8G 8GB,0.61728504,0.0903321,cn-shanghai,cn-shanghai-n,ecs.sgn8ia,X86
 ecs.ebmgn8t.32xlarge,G49,8,128,1024,G49 24GB,15.2490966,1.9924676,cn-shenzhen,cn-shenzhen-b,ecs.ebmgn8t,X86
-ecs.ebmgn8te.32xlarge,G49E,8,128,1024,G49E 48GB,19.849092,3.582342,cn-shenzhen,cn-shenzhen-b,ecs.ebmgn8te,X86
-ecs.gn9t-2x.12xlarge,G59,2,48,384,G59 32GB,5.7860364,0.9355031,cn-shenzhen,cn-shenzhen-b,ecs.gn9t,X86
-ecs.gn9t-4x.24xlarge,G59,4,96,768,G59 32GB,11.560467,1.859412,cn-shenzhen,cn-shenzhen-b,ecs.gn9t,X86
-ecs.gn9t-8x.48xlarge,G59,8,192,1536,G59 32GB,22.436592,5.617842,cn-shenzhen,cn-shenzhen-b,ecs.gn9t,X86
-ecs.gn9t.6xlarge,G59,1,24,192,G59 32GB,2.8989522,0.47356963,cn-shenzhen,cn-shenzhen-b,ecs.gn9t,X86
+ecs.gn8te.16xlarge,G49E,4,64,512,G49E 48GB,9.930342,0.9042795,cn-shenzhen,cn-shenzhen-b,ecs.gn8te,X86
+ecs.gn8te.4xlarge,G49E,1,16,128,G49E 48GB,2.4912864,0.2347645,cn-shenzhen,cn-shenzhen-b,ecs.gn8te,X86
+ecs.gn8te.8xlarge,G49E,2,32,256,G49E 48GB,4.970967,0.45793575,cn-shenzhen,cn-shenzhen-b,ecs.gn8te,X86
+ecs.gn9t-2x.12xlarge,G59,2,48,384,G59 32GB,5.7860364,1.28196977,cn-shenzhen,cn-shenzhen-b,ecs.gn9t,X86
+ecs.gn9t-4x.24xlarge,G59,4,96,768,G59 32GB,11.560467,2.5523445,cn-shenzhen,cn-shenzhen-b,ecs.gn9t,X86
+ecs.gn9t-8x.48xlarge,G59,8,192,1536,G59 32GB,22.436592,6.963342,cn-shenzhen,cn-shenzhen-b,ecs.gn9t,X86
+ecs.gn9t.6xlarge,G59,1,24,192,G59 32GB,2.8989522,0.64681124,cn-shenzhen,cn-shenzhen-b,ecs.gn9t,X86
 ecs.ebmgn8t.32xlarge,G49,8,128,1024,G49 24GB,15.2490966,4.73521815,cn-shenzhen,cn-shenzhen-c,ecs.ebmgn8t,X86
-ecs.gn5i-c40g1.10xlarge,P4,1,40,160,P4 8GB,3.796932,0.6929532,cn-shenzhen,cn-shenzhen-c,ecs.gn5i,X86
-ecs.gn8is-2x.8xlarge,L20,2,32,256,L20 48GB,4.38801774,0.75558436,cn-shenzhen,cn-shenzhen-c,ecs.gn8is,X86
+ecs.gn5i-c40g1.10xlarge,P4,1,40,160,P4 8GB,3.796932,0.7308066,cn-shenzhen,cn-shenzhen-c,ecs.gn5i,X86
+ecs.gn8is-2x.8xlarge,L20,2,32,256,L20 48GB,4.38801774,0.79934862,cn-shenzhen,cn-shenzhen-c,ecs.gn8is,X86
 ecs.gn8is-4x.16xlarge,L20,4,64,512,L20 48GB,8.76444348,1.58710529,cn-shenzhen,cn-shenzhen-c,ecs.gn8is,X86
-ecs.gn8is-8x.32xlarge,L20,8,128,1024,L20 48GB,15.92586654,2.8761615,cn-shenzhen,cn-shenzhen-c,ecs.gn8is,X86
-ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.00087642,0.27019898,cn-shenzhen,cn-shenzhen-c,ecs.gn8is,X86
-ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,2.19980487,0.29605968,cn-shenzhen,cn-shenzhen-c,ecs.gn8is,X86
+ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.00087642,0.36966319,cn-shenzhen,cn-shenzhen-c,ecs.gn8is,X86
+ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,2.19980487,0.40547032,cn-shenzhen,cn-shenzhen-c,ecs.gn8is,X86
 ecs.gn8t-2x.8xlarge,G49,2,32,256,G49 24GB,4.012212,1.2517842,cn-shenzhen,cn-shenzhen-c,ecs.gn8t,X86
 ecs.gn8t-4x.16xlarge,G49,4,64,512,G49 24GB,8.012832,2.4919764,cn-shenzhen,cn-shenzhen-c,ecs.gn8t,X86
 ecs.gn8t.4xlarge,G49,1,16,128,G49 24GB,2.011212,0.6314742,cn-shenzhen,cn-shenzhen-c,ecs.gn8t,X86
 ecs.ebmgn8ga-wy.96xlarge,Quadro 5880,4,384,2304,Quadro 5880 48GB,14.9612976,13.46632704,cn-shenzhen,cn-shenzhen-d,ecs.ebmgn8ga-wy,X86
-ecs.ebmgn8is.32xlarge,L20,8,128,1024,L20 48GB,15.923889,2.08019061,cn-shenzhen,cn-shenzhen-d,ecs.ebmgn8is,X86
+ecs.ebmgn8is.32xlarge,L20,8,128,1024,L20 48GB,15.923889,2.87580546,cn-shenzhen,cn-shenzhen-d,ecs.ebmgn8is,X86
 ecs.ebmgn8t.32xlarge,G49,8,128,1024,G49 24GB,15.2490966,1.9924676,cn-shenzhen,cn-shenzhen-d,ecs.ebmgn8t,X86
-ecs.ebmgn8te.32xlarge,G49E,8,128,1024,G49E 48GB,19.849092,2.590467,cn-shenzhen,cn-shenzhen-d,ecs.ebmgn8te,X86
 ecs.gn5i-c40g1.10xlarge,P4,1,40,160,P4 8GB,3.796932,0.6929532,cn-shenzhen,cn-shenzhen-d,ecs.gn5i,X86
 ecs.gn5i-c48g1.12xlarge,P4,1,48,192,P4 8GB,4.343412,1.960911,cn-shenzhen,cn-shenzhen-d,ecs.gn5i,X86
 ecs.gn7i-2x.8xlarge,A10,2,32,128,A10 24GB,2.7973566,0.87517903,cn-shenzhen,cn-shenzhen-d,ecs.gn7i,X86
@@ -894,39 +929,38 @@ ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,1.8481374,0.58092107,cn-shenzhen,cn
 ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,2.487864,0.77923632,cn-shenzhen,cn-shenzhen-d,ecs.gn7i,X86
 ecs.gn7i-c56g1.14xlarge,A10,1,56,346,A10 24GB,2.983146,0.93277374,cn-shenzhen,cn-shenzhen-d,ecs.gn7i,X86
 ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,1.3270908,0.41939663,cn-shenzhen,cn-shenzhen-d,ecs.gn7i,X86
-ecs.gn8is-2x.8xlarge,L20,2,32,256,L20 48GB,4.38801774,0.58052736,cn-shenzhen,cn-shenzhen-d,ecs.gn8is,X86
-ecs.gn8is-4x.16xlarge,L20,4,64,512,L20 48GB,8.76444348,1.23699115,cn-shenzhen,cn-shenzhen-d,ecs.gn8is,X86
-ecs.gn8is-8x.32xlarge,L20,8,128,1024,L20 48GB,15.92586654,2.23959041,cn-shenzhen,cn-shenzhen-d,ecs.gn8is,X86
-ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.00087642,0.27019898,cn-shenzhen,cn-shenzhen-d,ecs.gn8is,X86
-ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,2.19980487,0.29605968,cn-shenzhen,cn-shenzhen-d,ecs.gn8is,X86
+ecs.gn8is-2x.8xlarge,L20,2,32,256,L20 48GB,4.38801774,0.79934862,cn-shenzhen,cn-shenzhen-d,ecs.gn8is,X86
+ecs.gn8is-4x.16xlarge,L20,4,64,512,L20 48GB,8.76444348,1.58710529,cn-shenzhen,cn-shenzhen-d,ecs.gn8is,X86
+ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.00087642,0.36966319,cn-shenzhen,cn-shenzhen-d,ecs.gn8is,X86
+ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,2.19980487,0.40547032,cn-shenzhen,cn-shenzhen-d,ecs.gn8is,X86
 ecs.gn8t-2x.8xlarge,G49,2,32,256,G49 24GB,4.012212,0.5316726,cn-shenzhen,cn-shenzhen-d,ecs.gn8t,X86
 ecs.gn8t-4x.16xlarge,G49,4,64,512,G49 24GB,8.012832,1.0517532,cn-shenzhen,cn-shenzhen-d,ecs.gn8t,X86
 ecs.gn8t-8x.32xlarge,G49,8,128,1024,G49 24GB,15.250932,1.9927062,cn-shenzhen,cn-shenzhen-d,ecs.gn8t,X86
 ecs.gn8t.4xlarge,G49,1,16,128,G49 24GB,2.011212,0.2715426,cn-shenzhen,cn-shenzhen-d,ecs.gn8t,X86
 ecs.sgn8ga-wy-1024g-x4-ne.32xlarge,RTX 5880,4,128,1024,RTX 5880 48GB,11.741247,3.64778519,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-128g-m24.16xlarge,RTX 5880,1,64,128,RTX 5880 24GB,1.448172,0.4569318,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-128g-m24.16xlarge,RTX 5880,1,64,128,RTX 5880 24GB,1.448172,0.3851028,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-128g-x1.16xlarge,RTX 5880,1,64,128,RTX 5880 48GB,2.310672,0.7243068,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-12g-m2.3large,RTX 5880,1,6,12,RTX 5880 2GB,0.1550568,0.05463144,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-16g-m1.2xlarge,RTX 5880,1,8,16,RTX 5880 1GB,0.126132,0.0470994,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-16g-m2.2xlarge,RTX 5880,1,8,16,RTX 5880 2GB,0.184092,0.063342,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-16g-m4.2xlarge,RTX 5880,1,8,16,RTX 5880 4GB,0.240672,0.0826068,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-12g-m2.3large,RTX 5880,1,6,12,RTX 5880 2GB,0.1550568,0.04889285,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-16g-m1.2xlarge,RTX 5880,1,8,16,RTX 5880 1GB,0.126132,0.0413724,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-16g-m2.2xlarge,RTX 5880,1,8,16,RTX 5880 2GB,0.184092,0.056442,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-16g-m4.2xlarge,RTX 5880,1,8,16,RTX 5880 4GB,0.240672,0.0734436,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-256g-x1.16xlarge,RTX 5880,1,64,256,RTX 5880 48GB,2.886132,0.9026994,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-256g-x1.32xlarge,RTX 5880,1,128,256,RTX 5880 48GB,3.869727,1.20761385,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-256g-x2-ne.16xlarge,RTX 5880,2,64,256,RTX 5880 48GB,4.7550522,1.48206466,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-256g-x2.16xlarge,RTX 5880,2,64,256,RTX 5880 48GB,4.324092,1.348467,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-32g-m12.4xlarge,RTX 5880,1,16,32,RTX 5880 12GB,0.585672,0.1895568,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-32g-m4.4xlarge,RTX 5880,1,16,32,RTX 5880 4GB,0.356592,0.118542,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-32g-m12.4xlarge,RTX 5880,1,16,32,RTX 5880 12GB,0.585672,0.1723344,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-32g-m4.4xlarge,RTX 5880,1,16,32,RTX 5880 4GB,0.356592,0.104742,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-32g-m8.4xlarge,RTX 5880,1,16,32,RTX 5880 8GB,0.442152,0.1450656,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-384g-x4-ne.24xlarge,RTX 5880,4,96,384,RTX 5880 48GB,9.1825476,2.85458837,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-384g-x4.24xlarge,RTX 5880,4,96,384,RTX 5880 48GB,8.348172,2.5959318,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-512g-x1.64xlarge,RTX 5880,1,256,256,RTX 5880 48GB,6.066687,1.88867145,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-64g-m12.8xlarge,RTX 5880,1,32,64,RTX 5880 12GB,0.787152,0.2520156,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-64g-m16.8xlarge,RTX 5880,1,32,64,RTX 5880 16GB,0.816132,0.2609994,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-64g-m24.8xlarge,RTX 5880,1,32,64,RTX 5880 24GB,1.161132,0.3679494,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-64g-m12.8xlarge,RTX 5880,1,32,64,RTX 5880 12GB,0.787152,0.2287488,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-64g-m16.8xlarge,RTX 5880,1,32,64,RTX 5880 16GB,0.816132,0.2207724,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-64g-m24.8xlarge,RTX 5880,1,32,64,RTX 5880 24GB,1.161132,0.3104724,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-m8.8xlarge,RTX 5880,1,32,64,RTX 5880 8GB,0.585672,0.1895568,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-x1-ne.8xlarge,RTX 5880,1,32,64,RTX 5880 48GB,1.9088022,0.59972716,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-x1.8xlarge,RTX 5880,1,32,64,RTX 5880 48GB,1.7363022,0.54625216,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-8g-m2.xlarge,RTX 5880,1,4,8,RTX 5880 2GB,0.126132,0.045954,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-8g-m2.xlarge,RTX 5880,1,4,8,RTX 5880 2GB,0.126132,0.0413724,cn-shenzhen,cn-shenzhen-d,ecs.sgn8ga-wy,X86
 ecs.gn5i-c40g1.10xlarge,P4,1,40,160,P4 8GB,3.796932,0.390126,cn-shenzhen,cn-shenzhen-e,ecs.gn5i,X86
 ecs.gn5i-c48g1.12xlarge,P4,1,48,192,P4 8GB,4.343412,0.5747286,cn-shenzhen,cn-shenzhen-e,ecs.gn5i,X86
 ecs.gn6e-c12g1.12xlarge,V100,4,48,368,V100 32GB,10.907796,3.38941524,cn-shenzhen,cn-shenzhen-e,ecs.gn6e,X86
@@ -940,12 +974,8 @@ ecs.gn6v-c8g1.8xlarge,V100,4,32,128,V100 16GB,14.617512,3.2248944,cn-shenzhen,cn
 ecs.sgn6i-vws-m2.xlarge,T4/8,1,4,10,T4/8 2GB,0.2421369,0.04156284,cn-shenzhen,cn-shenzhen-e,ecs.sgn6i-vws,X86
 ecs.sgn6i-vws-m4.2xlarge,T4/4,1,8,16,T4/4 4GB,0.41504503,0.06404089,cn-shenzhen,cn-shenzhen-e,ecs.sgn6i-vws,X86
 ecs.sgn6i-vws-m8.4xlarge,T4/2,1,16,32,T4/2 8GB,0.75465438,0.10819011,cn-shenzhen,cn-shenzhen-e,ecs.sgn6i-vws,X86
-ecs.sgn7i-vws-m2.xlarge,A10*1/12,1,4,15.5,A10*1/12 2GB,0.26895618,0.06306483,cn-shenzhen,cn-shenzhen-e,ecs.sgn7i-vws,X86
-ecs.sgn7i-vws-m2s.xlarge,A10*1/12,1,4,8,A10*1/12 2GB,0.26358,0.0619896,cn-shenzhen,cn-shenzhen-e,ecs.sgn7i-vws,X86
-ecs.sgn7i-vws-m4.2xlarge,A10*1/6,1,8,31,A10*1/6 4GB,0.44142023,0.09755765,cn-shenzhen,cn-shenzhen-e,ecs.sgn7i-vws,X86
-ecs.sgn7i-vws-m4s.2xlarge,A10*1/6,1,8,16,A10*1/6 4GB,0.43608,0.0964896,cn-shenzhen,cn-shenzhen-e,ecs.sgn7i-vws,X86
-ecs.sgn7i-vws-m8.4xlarge,A10*1/3,1,16,62,A10*1/3 8GB,0.78634834,0.25176647,cn-shenzhen,cn-shenzhen-e,ecs.sgn7i-vws,X86
-ecs.sgn7i-vws-m8s.4xlarge,A10*1/3,1,16,32,A10*1/3 8GB,0.780942,0.2500905,cn-shenzhen,cn-shenzhen-e,ecs.sgn7i-vws,X86
+ecs.sgn7i-vws-m4.2xlarge,A10*1/6,1,8,31,A10*1/6 4GB,0.44142023,0.10615421,cn-shenzhen,cn-shenzhen-e,ecs.sgn7i-vws,X86
+ecs.sgn7i-vws-m4s.2xlarge,A10*1/6,1,8,16,A10*1/6 4GB,0.43608,0.10497936,cn-shenzhen,cn-shenzhen-e,ecs.sgn7i-vws,X86
 ecs.vgn6i-m16-vws.5xlarge,T4,1,20,92,T4 16GB,1.55331337,0.21201578,cn-shenzhen,cn-shenzhen-e,ecs.vgn6i-vws,X86
 ecs.vgn6i-m4-vws.xlarge,T4/4,1,4,23,T4/4 4GB,0.46336525,0.07032252,cn-shenzhen,cn-shenzhen-e,ecs.vgn6i-vws,X86
 ecs.vgn6i-m8-vws.2xlarge,T4/2,1,10,46,T4/2 8GB,0.82710184,0.11760828,cn-shenzhen,cn-shenzhen-e,ecs.vgn6i-vws,X86
@@ -955,6 +985,7 @@ ecs.vgn7i-vws-m4.xlarge,A10*1/6,1,4,30,A10*1/6 4GB,0.4347876,0.06660743,cn-shenz
 ecs.vgn7i-vws-m8.2xlarge,A10*1/3,1,10,62,A10*1/3 8GB,0.77870948,0.11131727,cn-shenzhen,cn-shenzhen-e,ecs.vgn7i-vws,X86
 ecs.ebmgn7t.32xlarge,G39,8,128,768,G39 24GB,12.89159237,1.68599209,cn-shenzhen,cn-shenzhen-f,ecs.ebmgn7t,X86
 ecs.gn7e-c16g1.4xlarge,A100 80G,1,16,125,A100 80G 80GB,4.805988,1.49785476,cn-shenzhen,cn-shenzhen-f,ecs.gn7e,X86
+ecs.gn7e-c16g1.8xlarge,A100 80G,2,32,250,A100 80G 80GB,9.600246,2.98407474,cn-shenzhen,cn-shenzhen-f,ecs.gn7e,X86
 ecs.gn7i-2x.8xlarge,A10,2,32,128,A10 24GB,2.7973566,0.87517903,cn-shenzhen,cn-shenzhen-f,ecs.gn7i,X86
 ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.4044812,0.44338765,cn-shenzhen,cn-shenzhen-f,ecs.gn7i,X86
 ecs.gn7i-c32g1.16xlarge,A10,2,64,376,A10 24GB,3.6846828,1.15025015,cn-shenzhen,cn-shenzhen-f,ecs.gn7i,X86
@@ -971,7 +1002,6 @@ ecs.sgn7i-vws-m4.2xlarge,A10*1/6,1,8,31,A10*1/6 4GB,0.44142023,0.06746967,cn-she
 ecs.sgn7i-vws-m4s.2xlarge,A10*1/6,1,8,16,A10*1/6 4GB,0.43608,0.06677544,cn-shenzhen,cn-shenzhen-f,ecs.sgn7i-vws,X86
 ecs.sgn7i-vws-m8.4xlarge,A10*1/3,1,16,62,A10*1/3 8GB,0.78634834,0.18203841,cn-shenzhen,cn-shenzhen-f,ecs.sgn7i-vws,X86
 ecs.sgn7i-vws-m8s.4xlarge,A10*1/3,1,16,32,A10*1/3 8GB,0.780942,0.180849,cn-shenzhen,cn-shenzhen-f,ecs.sgn7i-vws,X86
-ecs.sgn8ga-wy-1024g-x4-ne.32xlarge,RTX 5880,4,128,1024,RTX 5880 48GB,11.741247,10.5682815,cn-shenzhen,cn-shenzhen-f,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-128g-m24.16xlarge,RTX 5880,1,64,128,RTX 5880 24GB,1.448172,0.4569318,cn-shenzhen,cn-shenzhen-f,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-128g-x1.16xlarge,RTX 5880,1,64,128,RTX 5880 48GB,2.310672,2.080764,cn-shenzhen,cn-shenzhen-f,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-12g-m2.3large,RTX 5880,1,6,12,RTX 5880 2GB,0.1550568,0.05606609,cn-shenzhen,cn-shenzhen-f,ecs.sgn8ga-wy,X86
@@ -985,8 +1015,6 @@ ecs.sgn8ga-wy-256g-x2.16xlarge,RTX 5880,2,64,256,RTX 5880 48GB,4.324092,3.892842
 ecs.sgn8ga-wy-32g-m12.4xlarge,RTX 5880,1,16,32,RTX 5880 12GB,0.585672,0.1895568,cn-shenzhen,cn-shenzhen-f,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-32g-m4.4xlarge,RTX 5880,1,16,32,RTX 5880 4GB,0.356592,0.118542,cn-shenzhen,cn-shenzhen-f,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-32g-m8.4xlarge,RTX 5880,1,16,32,RTX 5880 8GB,0.442152,0.1450656,cn-shenzhen,cn-shenzhen-f,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-384g-x4-ne.24xlarge,RTX 5880,4,96,384,RTX 5880 48GB,9.1825476,8.26545204,cn-shenzhen,cn-shenzhen-f,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-384g-x4.24xlarge,RTX 5880,4,96,384,RTX 5880 48GB,8.348172,7.514514,cn-shenzhen,cn-shenzhen-f,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-512g-x1.64xlarge,RTX 5880,1,256,256,RTX 5880 48GB,6.066687,1.88867145,cn-shenzhen,cn-shenzhen-f,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-m12.8xlarge,RTX 5880,1,32,64,RTX 5880 12GB,0.787152,0.2520156,cn-shenzhen,cn-shenzhen-f,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-m16.8xlarge,RTX 5880,1,32,64,RTX 5880 16GB,0.816132,0.2609994,cn-shenzhen,cn-shenzhen-f,ecs.sgn8ga-wy,X86
@@ -999,7 +1027,11 @@ ecs.vgn7i-vws-m12.3xlarge,A10*1/2,1,14,93,A10*1/2 12GB,1.12263138,0.15602712,cn-
 ecs.vgn7i-vws-m24.7xlarge,A10*1,1,30,186,A10*1 24GB,2.15439694,0.29015665,cn-shenzhen,cn-shenzhen-f,ecs.vgn7i-vws,X86
 ecs.vgn7i-vws-m4.xlarge,A10*1/6,1,4,30,A10*1/6 4GB,0.4347876,0.06660743,cn-shenzhen,cn-shenzhen-f,ecs.vgn7i-vws,X86
 ecs.vgn7i-vws-m8.2xlarge,A10*1/3,1,10,62,A10*1/3 8GB,0.77870948,0.11131727,cn-shenzhen,cn-shenzhen-f,ecs.vgn7i-vws,X86
-ecs.gn8te.4xlarge,G49E,1,16,128,G49E 48GB,2.4912864,0.45793699,cn-wulanchabu,cn-wulanchabu-a,ecs.gn8te,X86
+ecs.gn8is-2x.8xlarge,L20,2,32,256,L20 48GB,4.38801774,0.79934862,cn-wulanchabu,cn-wulanchabu-a,ecs.gn8is,X86
+ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,2.00087642,0.36966319,cn-wulanchabu,cn-wulanchabu-a,ecs.gn8is,X86
+ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,2.19980487,0.40547032,cn-wulanchabu,cn-wulanchabu-a,ecs.gn8is,X86
+ecs.gn8v.4xlarge,H,1,16,96,H 96GB,4.7817,0.87021144,cn-wulanchabu,cn-wulanchabu-a,ecs.gn8v,X86
+ecs.gn8v.6xlarge,H,1,24,128,H 96GB,5.0575068,0.91985666,cn-wulanchabu,cn-wulanchabu-a,ecs.gn8v,X86
 ecs.sgn8ga-wy-128g-m24.16xlarge,RTX 5880,1,64,128,RTX 5880 24GB,1.448172,0.4569318,cn-wulanchabu,cn-wulanchabu-a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-128g-x1.16xlarge,RTX 5880,1,64,128,RTX 5880 48GB,2.310672,0.7243068,cn-wulanchabu,cn-wulanchabu-a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-12g-m2.3large,RTX 5880,1,6,12,RTX 5880 2GB,0.1550568,0.05606609,cn-wulanchabu,cn-wulanchabu-a,ecs.sgn8ga-wy,X86
@@ -1021,14 +1053,13 @@ ecs.sgn8ga-wy-64g-m8.8xlarge,RTX 5880,1,32,64,RTX 5880 8GB,0.585672,0.1895568,cn
 ecs.sgn8ga-wy-64g-x1-ne.8xlarge,RTX 5880,1,32,64,RTX 5880 48GB,1.9088022,0.59972716,cn-wulanchabu,cn-wulanchabu-a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-x1.8xlarge,RTX 5880,1,32,64,RTX 5880 48GB,1.7363022,0.54625216,cn-wulanchabu,cn-wulanchabu-a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-8g-m2.xlarge,RTX 5880,1,4,8,RTX 5880 2GB,0.126132,0.0470994,cn-wulanchabu,cn-wulanchabu-a,ecs.sgn8ga-wy,X86
-ecs.gn6e-c12g1.12xlarge,V100,4,48,368,V100 32GB,9.818148,3.05162436,cn-wulanchabu,cn-wulanchabu-b,ecs.gn6e,X86
+ecs.gn6e-c12g1.12xlarge,V100,4,48,368,V100 32GB,9.818148,2.56129656,cn-wulanchabu,cn-wulanchabu-b,ecs.gn6e,X86
 ecs.gn6e-c12g1.24xlarge,V100,8,96,736,V100 32GB,19.62498,6.09174228,cn-wulanchabu,cn-wulanchabu-b,ecs.gn6e,X86
-ecs.gn6e-c12g1.3xlarge,V100,1,12,92,V100 32GB,2.4633,0.77162148,cn-wulanchabu,cn-wulanchabu-b,ecs.gn6e,X86
-ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.265184,0.40020552,cn-wulanchabu,cn-wulanchabu-b,ecs.gn7i,X86
-ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,1.664487,0.52398945,cn-wulanchabu,cn-wulanchabu-b,ecs.gn7i,X86
-ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,2.240154,0.70244622,cn-wulanchabu,cn-wulanchabu-b,ecs.gn7i,X86
-ecs.gn7i-c56g1.14xlarge,A10,1,56,346,A10 24GB,2.685894,0.84062562,cn-wulanchabu,cn-wulanchabu-b,ecs.gn7i,X86
-ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,1.1955492,0.37861873,cn-wulanchabu,cn-wulanchabu-b,ecs.gn7i,X86
+ecs.gn6e-c12g1.3xlarge,V100,1,12,92,V100 32GB,2.4633,0.64903608,cn-wulanchabu,cn-wulanchabu-b,ecs.gn6e,X86
+ecs.gn8v-2x.12xlarge,H,2,48,256,H 96GB,10.1034216,1.82812133,cn-wulanchabu,cn-wulanchabu-b,ecs.gn8v,X86
+ecs.gn8v-2x.8xlarge,H,2,32,192,H 96GB,9.3957714,1.70074429,cn-wulanchabu,cn-wulanchabu-b,ecs.gn8v,X86
+ecs.gn8v.4xlarge,H,1,16,96,H 96GB,4.7817,0.87021144,cn-wulanchabu,cn-wulanchabu-b,ecs.gn8v,X86
+ecs.gn8v.6xlarge,H,1,24,128,H 96GB,5.0575068,0.91985666,cn-wulanchabu,cn-wulanchabu-b,ecs.gn8v,X86
 ecs.sgn8ga-wy-1024g-x4-ne.32xlarge,RTX 5880,4,128,1024,RTX 5880 48GB,11.741247,3.64778519,cn-wulanchabu,cn-wulanchabu-b,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-128g-m24.16xlarge,RTX 5880,1,64,128,RTX 5880 24GB,1.448172,0.3276396,cn-wulanchabu,cn-wulanchabu-b,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-128g-x1.16xlarge,RTX 5880,1,64,128,RTX 5880 48GB,2.310672,0.7243068,cn-wulanchabu,cn-wulanchabu-b,ecs.sgn8ga-wy,X86
@@ -1065,11 +1096,14 @@ ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.455072,0.4590708,cn-wulanchabu,cn-wulan
 ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.750392,0.55062,cn-wulanchabu,cn-wulanchabu-c,ecs.gn6i,X86
 ecs.gn6v-c8g1.2xlarge,V100,1,8,32,V100 16GB,3.663072,1.1435508,cn-wulanchabu,cn-wulanchabu-c,ecs.gn6v,X86
 ecs.gn6v-c8g1.4xlarge,V100,2,16,64,V100 16GB,7.314552,2.2755096,cn-wulanchabu,cn-wulanchabu-c,ecs.gn6v,X86
+ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,1.265184,0.40020552,cn-wulanchabu,cn-wulanchabu-c,ecs.gn7i,X86
+ecs.gn7i-c32g1.8xlarge,A10,1,32,188,A10 24GB,1.664487,0.52398945,cn-wulanchabu,cn-wulanchabu-c,ecs.gn7i,X86
+ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,2.240154,0.70244622,cn-wulanchabu,cn-wulanchabu-c,ecs.gn7i,X86
+ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,1.1955492,0.37861873,cn-wulanchabu,cn-wulanchabu-c,ecs.gn7i,X86
 ecs.gn7t-c16g1.4xlarge,G39,1,16,94,G39 24GB,1.460592,0.460782,cn-wulanchabu,cn-wulanchabu-c,ecs.gn7t,X86
 ecs.sgn6i-vws-m2.xlarge,T4/8,1,4,10,T4/8 2GB,0.22809275,0.0397371,cn-wulanchabu,cn-wulanchabu-c,ecs.sgn6i-vws,X86
 ecs.sgn6i-vws-m4.2xlarge,T4/4,1,8,16,T4/4 4GB,0.38383135,0.05998312,cn-wulanchabu,cn-wulanchabu-c,ecs.sgn6i-vws,X86
 ecs.sgn6i-vws-m8.4xlarge,T4/2,1,16,32,T4/2 8GB,0.68947982,0.16072732,cn-wulanchabu,cn-wulanchabu-c,ecs.sgn6i-vws,X86
-ecs.ebmgn8te.32xlarge,G49E,8,128,1024,G49E 48GB,19.849092,3.582342,cn-wulanchabu,cn-wulanchabu-d,ecs.ebmgn8te,X86
 ecs.sgn8ga-wy-1024g-x4-ne.32xlarge,RTX 5880,4,128,1024,RTX 5880 48GB,11.741247,10.5682815,cn-wulanchabu,cn-wulanchabu-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-128g-m24.16xlarge,RTX 5880,1,64,128,RTX 5880 24GB,1.448172,0.1983474,cn-wulanchabu,cn-wulanchabu-d,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-128g-x1.16xlarge,RTX 5880,1,64,128,RTX 5880 48GB,2.310672,2.080764,cn-wulanchabu,cn-wulanchabu-d,ecs.sgn8ga-wy,X86
@@ -1099,8 +1133,12 @@ ecs.f3-c12f1.3xlarge,Xilinx VU9p,1,12,48,Xilinx VU9p 64GB,0.9983984,0.31750198,c
 ecs.f3-c16f1.4xlarge,Xilinx VU9p,1,16,64,Xilinx VU9p 64GB,1.460592,0.460782,cn-zhangjiakou,cn-zhangjiakou-a,ecs.f3,X86
 ecs.f3-c4f1.xlarge,Xilinx VU9p,1,4,16,Xilinx VU9p 64GB,1.020648,0.32439936,cn-zhangjiakou,cn-zhangjiakou-a,ecs.f3,X86
 ecs.f3-c8f1.2xlarge,Xilinx VU9p,1,8,32,Xilinx VU9p 64GB,1.167342,0.3698745,cn-zhangjiakou,cn-zhangjiakou-a,ecs.f3,X86
+ecs.gn5i-c40g1.10xlarge,P4,1,40,160,P4 8GB,2.850252,1.288989,cn-zhangjiakou,cn-zhangjiakou-a,ecs.gn5i,X86
+ecs.gn5i-c48g1.12xlarge,P4,1,48,192,P4 8GB,3.260112,1.473426,cn-zhangjiakou,cn-zhangjiakou-a,ecs.gn5i,X86
 ecs.gn5i-c40g1.10xlarge,P4,1,40,160,P4 8GB,2.850252,1.288989,cn-zhangjiakou,cn-zhangjiakou-b,ecs.gn5i,X86
 ecs.gn5i-c48g1.12xlarge,P4,1,48,192,P4 8GB,3.260112,1.473426,cn-zhangjiakou,cn-zhangjiakou-b,ecs.gn5i,X86
+ecs.gn6e-c12g1.3xlarge,V100,1,12,92,V100 32GB,2.4633,0.77162148,cn-zhangjiakou,cn-zhangjiakou-b,ecs.gn6e,X86
+ecs.gn6e-c12g1.3xlarge,V100,1,12,92,V100 32GB,2.4633,0.77162148,cn-zhangjiakou,cn-zhangjiakou-c,ecs.gn6e,X86
 ecs.sgn6i-vws-m2.xlarge,T4/8,1,4,10,T4/8 2GB,0.22512467,0.05856919,cn-zhangjiakou,cn-zhangjiakou-c,ecs.sgn6i-vws,X86
 ecs.sgn6i-vws-m4.2xlarge,T4/4,1,8,16,T4/4 4GB,0.38082334,0.09282289,cn-zhangjiakou,cn-zhangjiakou-c,ecs.sgn6i-vws,X86
 ecs.sgn6i-vws-m8.4xlarge,T4/2,1,16,32,T4/2 8GB,0.68647175,0.09932637,cn-zhangjiakou,cn-zhangjiakou-c,ecs.sgn6i-vws,X86
@@ -1121,35 +1159,30 @@ ecs.gn8is-4x.16xlarge,L20,4,64,512,L20 48GB,13.35834149,1.74382251,eu-central-1,
 ecs.gn8is-8x.32xlarge,L20,8,128,1024,L20 48GB,24.28108482,3.16377944,eu-central-1,eu-central-1a,ecs.gn8is,X86
 ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,3.05192465,0.40398842,eu-central-1,eu-central-1a,ecs.gn8is,X86
 ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,3.34582725,0.44219573,eu-central-1,eu-central-1a,ecs.gn8is,X86
-ecs.gn8v-2x.12xlarge,H,2,48,256,H 96GB,14.86540002,1.93974014,eu-central-1,eu-central-1a,ecs.gn8v,X86
-ecs.gn8v-2x.8xlarge,H,2,32,192,H 96GB,13.82333442,1.80427162,eu-central-1,eu-central-1a,ecs.gn8v,X86
-ecs.gn8v-4x.24xlarge,H,4,96,512,H 96GB,29.72217504,3.87112094,eu-central-1,eu-central-1a,ecs.gn8v,X86
-ecs.gn8v-4x.8xlarge,H,4,32,384,H 96GB,28.09809582,3.6599906,eu-central-1,eu-central-1a,ecs.gn8v,X86
-ecs.gn8v-8x.16xlarge,H,8,64,768,H 96GB,56.1875556,7.31162005,eu-central-1,eu-central-1a,ecs.gn8v,X86
-ecs.gn8v-8x.48xlarge,H,8,192,1024,H 96GB,58.2708036,7.58244257,eu-central-1,eu-central-1a,ecs.gn8v,X86
-ecs.gn8v.4xlarge,H,1,16,96,H 96GB,7.03083642,0.92124688,eu-central-1,eu-central-1a,ecs.gn8v,X86
-ecs.gn8v.6xlarge,H,1,24,128,H 96GB,7.43686002,0.97402994,eu-central-1,eu-central-1a,ecs.gn8v,X86
-ecs.sgn8ga-wy-1024g-x4-ne.32xlarge,RTX 5880,4,128,1024,RTX 5880 48GB,22.4378478,20.19489378,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-128g-m24.16xlarge,RTX 5880,1,64,128,RTX 5880 24GB,3.30621614,0.43704628,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
+ecs.gn8v-2x.12xlarge,H,2,48,256,H 96GB,14.86540002,2.68259428,eu-central-1,eu-central-1a,ecs.gn8v,X86
+ecs.gn8v-2x.8xlarge,H,2,32,192,H 96GB,13.82333442,2.49502234,eu-central-1,eu-central-1a,ecs.gn8v,X86
+ecs.gn8v-4x.24xlarge,H,4,96,512,H 96GB,29.72217504,5.35681403,eu-central-1,eu-central-1a,ecs.gn8v,X86
+ecs.gn8v-4x.8xlarge,H,4,32,384,H 96GB,28.09809582,5.06447953,eu-central-1,eu-central-1a,ecs.gn8v,X86
+ecs.gn8v.4xlarge,H,1,16,96,H 96GB,7.03083642,1.2723727,eu-central-1,eu-central-1a,ecs.gn8v,X86
+ecs.gn8v.6xlarge,H,1,24,128,H 96GB,7.43686002,1.34545694,eu-central-1,eu-central-1a,ecs.gn8v,X86
+ecs.sgn8ga-wy-128g-m24.16xlarge,RTX 5880,1,64,128,RTX 5880 24GB,3.30621614,0.5030042,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-128g-x1.16xlarge,RTX 5880,1,64,128,RTX 5880 48GB,5.28535667,4.75765295,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-12g-m2.3large,RTX 5880,1,6,12,RTX 5880 2GB,0.30453674,0.04682795,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-16g-m2.2xlarge,RTX 5880,1,8,16,RTX 5880 2GB,0.40348274,0.05969093,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-16g-m4.2xlarge,RTX 5880,1,8,16,RTX 5880 4GB,0.53542454,0.07684337,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-12g-m2.3large,RTX 5880,1,6,12,RTX 5880 2GB,0.30453674,0.05275229,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-16g-m2.2xlarge,RTX 5880,1,8,16,RTX 5880 2GB,0.40348274,0.06759419,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-16g-m4.2xlarge,RTX 5880,1,8,16,RTX 5880 4GB,0.53542454,0.08738546,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-256g-x1.16xlarge,RTX 5880,1,64,256,RTX 5880 48GB,6.60477481,5.94512929,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-256g-x1.32xlarge,RTX 5880,1,128,256,RTX 5880 48GB,7.38586847,0.96740111,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-256g-x1.32xlarge,RTX 5880,1,128,256,RTX 5880 48GB,7.38586847,1.11495209,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-256g-x2-ne.16xlarge,RTX 5880,2,64,256,RTX 5880 48GB,10.89290442,9.80444598,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-256g-x2.16xlarge,RTX 5880,2,64,256,RTX 5880 48GB,9.90333402,8.91383262,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-32g-m12.4xlarge,RTX 5880,1,16,32,RTX 5880 12GB,1.26111134,0.17118265,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-32g-m8.4xlarge,RTX 5880,1,16,32,RTX 5880 8GB,0.99722774,0.13687778,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-384g-x4-ne.24xlarge,RTX 5880,4,96,384,RTX 5880 48GB,21.0524658,18.9480486,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-384g-x4.24xlarge,RTX 5880,4,96,384,RTX 5880 48GB,19.13928762,17.22619086,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-512g-x1.64xlarge,RTX 5880,1,256,256,RTX 5880 48GB,11.58692022,1.51353777,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-64g-m12.8xlarge,RTX 5880,1,32,64,RTX 5880 12GB,1.59097274,0.21406463,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-64g-m16.8xlarge,RTX 5880,1,32,64,RTX 5880 16GB,1.85485634,0.2483695,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-64g-m24.8xlarge,RTX 5880,1,32,64,RTX 5880 24GB,2.64650714,0.35128411,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-32g-m12.4xlarge,RTX 5880,1,16,32,RTX 5880 12GB,1.26111134,0.19623848,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-32g-m8.4xlarge,RTX 5880,1,16,32,RTX 5880 8GB,0.99722774,0.15665594,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-512g-x1.64xlarge,RTX 5880,1,256,256,RTX 5880 48GB,11.58692022,1.74510977,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-64g-m12.8xlarge,RTX 5880,1,32,64,RTX 5880 12GB,1.59097274,0.24571769,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-64g-m16.8xlarge,RTX 5880,1,32,64,RTX 5880 16GB,1.85485634,0.28530023,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-64g-m24.8xlarge,RTX 5880,1,32,64,RTX 5880 24GB,2.64650714,0.40404785,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-x1-ne.8xlarge,RTX 5880,1,32,64,RTX 5880 48GB,4.36175054,3.9264076,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
 ecs.sgn8ga-wy-64g-x1.8xlarge,RTX 5880,1,32,64,RTX 5880 48GB,3.96592514,3.5701646,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
-ecs.sgn8ga-wy-8g-m2.xlarge,RTX 5880,1,4,8,RTX 5880 2GB,0.27154094,0.0425385,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
+ecs.sgn8ga-wy-8g-m2.xlarge,RTX 5880,1,4,8,RTX 5880 2GB,0.27154094,0.04780292,eu-central-1,eu-central-1a,ecs.sgn8ga-wy,X86
 ecs.ebmgn8is.32xlarge,L20,8,128,1024,L20 48GB,24.2780778,2.19259796,eu-central-1,eu-central-1c,ecs.ebmgn8is,X86
 ecs.gn7i-c16g1.4xlarge,A10,1,16,60,A10 24GB,2.71097923,0.8461442,eu-central-1,eu-central-1c,ecs.gn7i,X86
 ecs.gn7i-c32g1.16xlarge,A10,2,64,376,A10 24GB,6.01422975,1.87015199,eu-central-1,eu-central-1c,ecs.gn7i,X86
@@ -1161,8 +1194,8 @@ ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,2.5608315,0.79959841,eu-central-1,eu-c
 ecs.gn8is-2x.8xlarge,L20,2,32,256,L20 48GB,6.68333034,0.87607113,eu-central-1,eu-central-1c,ecs.gn8is,X86
 ecs.gn8is-4x.16xlarge,L20,4,64,512,L20 48GB,13.35834149,1.74382251,eu-central-1,eu-central-1c,ecs.gn8is,X86
 ecs.gn8is-8x.32xlarge,L20,8,128,1024,L20 48GB,24.28108482,3.16377944,eu-central-1,eu-central-1c,ecs.gn8is,X86
-ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,3.05192465,0.2822442,eu-central-1,eu-central-1c,ecs.gn8is,X86
-ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,3.34582725,0.3086954,eu-central-1,eu-central-1c,ecs.gn8is,X86
+ecs.gn8is.2xlarge,L20,1,8,64,L20 48GB,3.05192465,0.3431163,eu-central-1,eu-central-1c,ecs.gn8is,X86
+ecs.gn8is.4xlarge,L20,1,16,128,L20 48GB,3.34582725,0.37544559,eu-central-1,eu-central-1c,ecs.gn8is,X86
 ecs.sgn7i-vws-m2.xlarge,A10*1/12,1,4,15.5,A10*1/12 2GB,0.27169118,0.04255803,eu-central-1,eu-central-1c,ecs.sgn7i-vws,X86
 ecs.sgn7i-vws-m2s.xlarge,A10*1/12,1,4,8,A10*1/12 2GB,0.27169118,0.04255803,eu-central-1,eu-central-1c,ecs.sgn7i-vws,X86
 ecs.sgn7i-vws-m4.2xlarge,A10*1/6,1,8,31,A10*1/6 4GB,0.53506264,0.12420318,eu-central-1,eu-central-1c,ecs.sgn7i-vws,X86
@@ -1187,6 +1220,10 @@ ecs.gn7i-c48g1.12xlarge,A10,1,48,310,A10 24GB,2.95813391,0.92232791,us-east-1,us
 ecs.gn7i-c56g1.14xlarge,A10,1,56,346,A10 24GB,3.5482226,1.10525539,us-east-1,us-east-1a,ecs.gn7i,X86
 ecs.gn7i-c8g1.2xlarge,A10,1,8,30,A10 24GB,2.09758786,0.65555869,us-east-1,us-east-1a,ecs.gn7i,X86
 ecs.ebmgn7i.32xlarge,A10,4,128,768,A10 24GB,9.84250224,2.17134899,us-east-1,us-east-1b,ecs.ebmgn7i,X86
+ecs.ebmgn7ix.32xlarge,A10,8,128,512,A10 24GB,12.29105004,3.81553205,us-east-1,us-east-1b,ecs.ebmgn7ix,X86
+ecs.gn5-c28g1.7xlarge,P100,1,28,112,P100 16GB,2.84911033,0.26341826,us-east-1,us-east-1b,ecs.gn5,X86
+ecs.gn5-c4g1.xlarge,P100,1,4,30,P100 16GB,1.49671046,0.14170226,us-east-1,us-east-1b,ecs.gn5,X86
+ecs.gn5-c8g1.2xlarge,P100,1,8,60,P100 16GB,1.80169046,0.16915046,us-east-1,us-east-1b,ecs.gn5,X86
 ecs.gn6e-c12g1.12xlarge,V100,4,48,368,V100 32GB,10.73180874,2.36699629,us-east-1,us-east-1b,ecs.gn6e,X86
 ecs.gn6e-c12g1.24xlarge,V100,8,96,736,V100 32GB,21.45592536,4.72630266,us-east-1,us-east-1b,ecs.gn6e,X86
 ecs.gn6e-c12g1.3xlarge,V100,1,12,92,V100 32GB,2.68875446,0.59752454,us-east-1,us-east-1b,ecs.gn6e,X86
@@ -1194,7 +1231,7 @@ ecs.gn6i-c16g1.4xlarge,T4,1,16,62,T4 16GB,1.61953046,0.50736086,us-east-1,us-eas
 ecs.gn6i-c24g1.12xlarge,T4,2,48,186,T4 16GB,4.10491046,1.27782866,us-east-1,us-east-1b,ecs.gn6i,X86
 ecs.gn6i-c24g1.24xlarge,T4,4,96,372,T4 16GB,8.20351074,2.54839453,us-east-1,us-east-1b,ecs.gn6i,X86
 ecs.gn6i-c24g1.6xlarge,T4,1,24,93,T4 16GB,2.05561046,0.64254566,us-east-1,us-east-1b,ecs.gn6i,X86
-ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,2.69041046,0.62471606,us-east-1,us-east-1b,ecs.gn6i,X86
+ecs.gn6i-c40g1.10xlarge,T4,1,40,155,T4 16GB,2.69041046,0.83933366,us-east-1,us-east-1b,ecs.gn6i,X86
 ecs.gn6i-c4g1.xlarge,T4,1,4,15,T4 16GB,1.08271046,0.34094666,us-east-1,us-east-1b,ecs.gn6i,X86
 ecs.gn6i-c8g1.2xlarge,T4,1,8,31,T4 16GB,1.26073046,0.39613286,us-east-1,us-east-1b,ecs.gn6i,X86
 ecs.gn6v-c8g1.16xlarge,V100,8,64,256,V100 16GB,20.16673074,4.44267954,us-east-1,us-east-1b,ecs.gn6v,X86
@@ -1218,4 +1255,3 @@ ecs.sgn7i-vws-m8.4xlarge,A10*1/3,1,16,62,A10*1/3 8GB,0.88882879,0.12223844,us-ea
 ecs.sgn7i-vws-m8s.4xlarge,A10*1/3,1,16,32,A10*1/3 8GB,0.88882879,0.12223844,us-east-1,us-east-1b,ecs.sgn7i-vws,X86
 ecs.sgn6i-vws-m2.xlarge,T4/8,1,4,10,T4/8 2GB,0.22067598,0.07477787,us-west-1,us-west-1b,ecs.sgn6i-vws,X86
 ecs.sgn6i-vws-m4.2xlarge,T4/4,1,8,16,T4/4 4GB,0.47921231,0.15492414,us-west-1,us-west-1b,ecs.sgn6i-vws,X86
-ecs.sgn6i-vws-m8.4xlarge,T4/2,1,16,32,T4/2 8GB,0.89476054,0.28374409,us-west-1,us-west-1b,ecs.sgn6i-vws,X86
